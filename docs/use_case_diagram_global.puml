@@ -1,0 +1,151 @@
+@startuml MOVIROO_Global_Use_Case_Diagram
+
+!theme plain
+skinparam backgroundColor #FEFEFE
+skinparam usecase {
+    BackgroundColor #E3F2FD
+    BorderColor #1565C0
+    ArrowColor #1565C0
+    FontColor #0D47A1
+}
+skinparam actor {
+    BackgroundColor #FFF3E0
+    BorderColor #E65100
+    FontColor #BF360C
+}
+skinparam rectangle {
+    BackgroundColor #FAFAFA
+    BorderColor #424242
+}
+skinparam note {
+    BackgroundColor #FFFDE7
+    BorderColor #F9A825
+}
+
+title Diagramme Global de Cas d'Utilisation — Système MOVIROO
+
+' ═══════════════════════════════════════════════════════════════
+' ACTEURS
+' ═══════════════════════════════════════════════════════════════
+
+left to right direction
+
+actor "Passager" as Passenger #FFF3E0
+actor "Chauffeur" as Driver #E8F5E9
+actor "Administrateur" as Admin #FFEBEE
+
+' ═══════════════════════════════════════════════════════════════
+' BOUNDARY — SYSTÈME MOVIROO
+' ═══════════════════════════════════════════════════════════════
+
+rectangle "Système MOVIROO" as System {
+
+    usecase "S'authentifier" as UC_Auth
+
+    usecase "Réserver un trajet" as UC_Booking
+    usecase "Modifier une\nréservation" as UC_Modify
+    usecase "Annuler une\nréservation" as UC_Cancel
+    usecase "Consulter\nl'historique des trajets" as UC_PassHistory
+    usecase "Rechercher\nun trajet" as UC_Search
+
+    usecase "Recevoir une\ndemande de course" as UC_Receive
+    usecase "Accepter / Refuser\nune course" as UC_Accept
+    usecase "Consulter les\ntrajets en cours" as UC_DriveCurrent
+    usecase "Signaler un\nincident" as UC_Report
+    usecase "Consulter\nl'historique des courses" as UC_DriveHistory
+    usecase "Mettre à jour\nla disponibilité" as UC_Available
+
+    usecase "Extraire les informations\nde réservation" as UC_Extract
+    usecase "Gérer le dialogue\nvocal" as UC_Dialogue
+    usecase "Confirmer\nla réservation" as UC_Confirm
+
+    usecase "Gérer les modèles\nd'intelligence artificielle" as UC_Models
+    usecase "Superviser\nles conversations" as UC_Monitor
+    usecase "Consulter les\nstatistiques" as UC_Stats
+    usecase "Gérer les\nutilisateurs" as UC_Users
+    usecase "Configurer\nle système" as UC_Config
+
+}
+
+' ═══════════════════════════════════════════════════════════════
+' ASSOCIATIONS
+' ═══════════════════════════════════════════════════════════════
+
+' Passager
+Passenger --> UC_Auth
+Passenger --> UC_Booking
+Passenger --> UC_Modify
+Passenger --> UC_Cancel
+Passenger --> UC_PassHistory
+Passenger --> UC_Search
+
+' Chauffeur
+Driver --> UC_Auth
+Driver --> UC_Receive
+Driver --> UC_Accept
+Driver --> UC_DriveCurrent
+Driver --> UC_Report
+Driver --> UC_DriveHistory
+Driver --> UC_Available
+
+' Administrateur
+Admin --> UC_Auth
+Admin --> UC_Models
+Admin --> UC_Monitor
+Admin --> UC_Stats
+Admin --> UC_Users
+Admin --> UC_Config
+
+' ═══════════════════════════════════════════════════════════════
+' RELATIONS — <<include>>
+' ═══════════════════════════════════════════════════════════════
+
+' Booking and search always need extraction and dialogue
+UC_Booking ..> UC_Extract : <<include>>
+UC_Booking ..> UC_Dialogue : <<include>>
+
+UC_Search ..> UC_Extract : <<include>>
+
+' Driver receiving a request implies extraction of booking info
+UC_Receive ..> UC_Extract : <<include>>
+
+' Monitoring implies stats
+UC_Monitor ..> UC_Stats : <<include>>
+
+' System configuration implies user management
+UC_Config ..> UC_Users : <<include>>
+
+' ═══════════════════════════════════════════════════════════════
+' RELATIONS — <<extend>>
+' ═══════════════════════════════════════════════════════════════
+
+UC_Confirm ..> UC_Booking : <<extend>>
+
+' ═══════════════════════════════════════════════════════════════
+' NOTES
+' ═══════════════════════════════════════════════════════════════
+
+note right of UC_Confirm
+  S'active lorsque toutes
+  les informations sont
+  collectées (destination,
+  départ, date, heure)
+end note
+
+note right of UC_Dialogue
+  Pose des questions pour
+  les champs manquants et
+  mémorise le contexte
+end note
+
+note right of UC_Extract
+  Reconnaît : localisations,
+  dates et heures depuis
+  la voix ou le texte
+end note
+
+note bottom of System
+  **Langues supportées :** TN · FR · EN · AR
+end note
+
+@enduml

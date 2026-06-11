@@ -1,0 +1,321 @@
+text,DESTINATION,DEPARTURE,DATE,TIME
+nheb nemchi hammamet ghodwa 18h,hammamet,,ghodwa,18h
+khodni lel matar tawwa,matar,,tawwa,
+bch nemchi sousse el-jemaa fel sbeh,sousse,,el-jemaa,sbeh
+nemchi sfax min el-maktab el-khamis ba3d dhuhr,sfax,el-maktab,el-khamis,ba3d dhuhr
+3aybni taxi men hne lel funduk el-ahad 3achiya,funduk,hne,el-ahad,3achiya
+nheb nemchi aeroport ghodwa 8h30 min beit,aeroport,beit,ghodwa,8h30
+khodni men dar lel matar el-itnin sbeh,matar,dar,el-itnin,sbeh
+nemchi monastir ba3d ghodwa,monastir,,ba3d ghodwa,
+taxi men ennasr lel lac tawwa,lac,ennasr,tawwa,
+wein bch nemchi lyoum el-lil,,,lyoum,el-lil
+nemchi nabeul el-talata sbeh,nabeul,,el-talata,sbeh
+3aybni men beit lel gare ghodwa,gare,beit,ghodwa,
+khodni lel funduk lyoum dhuhr,funduk,,lyoum,dhuhr
+nemchi bizerte el-arba3 3achiya,bizerte,,el-arba3,3achiya
+taxi men bureau lel matar el-jemaa sbeh,matar,bureau,el-jemaa,sbeh
+nemchi kairouan ghodwa 10h,kairouan,,ghodwa,10h
+khodni lel marsa el-ahad leyl,marsa,,el-ahad,leyl
+taxi men dar lel hotel tawwa,hotel,dar,tawwa,
+nemchi sfax ba3d ghodwa 7h,sfax,,ba3d ghodwa,7h
+3aybni men el-maktab lel aeroport el-khamis 14h,aeroport,el-maktab,el-khamis,14h
+nemchi djerba el-jemaa el-jaya,djerba,,el-jemaa el-jaya,
+khodni lel mahatta ghodwa sbeh,mahatta,,ghodwa,sbeh
+taxi men beit lel centre el-itnin 9h30,centre,beit,el-itnin,9h30
+nemchi sousse tawwa fel dhuhr,sousse,,tawwa,dhuhr
+wein bch taxi men dar lel matar,matar,dar,,
+je veux aller a tunis demain matin,tunis,,demain,matin
+taxi de la marsa vers le centre demain a 14h,centre,la marsa,demain,14h
+aller de bizerte a nabeul mercredi a 9h,nabeul,bizerte,mercredi,9h
+taxi depuis mon bureau jusqu a sfax vendredi soir,sfax,bureau,vendredi,soir
+aller a sousse ce soir a 20h,sousse,,ce soir,20h
+je pars de tunis vers monastir lundi matin,monastir,tunis,lundi,matin
+reserver un taxi pour demain apres-midi a sfax,sfax,,demain,apres-midi
+aller a hammamet samedi a 11h,hammamet,,samedi,11h
+taxi de l aeroport vers la marsa jeudi matin,la marsa,aeroport,jeudi,matin
+je dois aller a kairouan dimanche soir,kairouan,,dimanche,soir
+taxi depuis bizerte vers tunis ce soir,tunis,bizerte,ce soir,
+aller a djerba apres-demain,djerba,,apres-demain,
+taxi de mon hotel vers la gare lundi a 8h,la gare,hotel,lundi,8h
+je veux un taxi pour aller au centre ce matin,centre,,ce matin,
+taxi de la marsa vers sfax vendredi 18h30,sfax,la marsa,vendredi,18h30
+aller de sousse a monastir mardi apres-midi,monastir,sousse,mardi,apres-midi
+taxi pour demain matin de mon bureau a l aeroport,aeroport,bureau,demain,matin
+aller a nabeul maintenant depuis tunis,nabeul,tunis,maintenant,
+je dois arriver a sfax vendredi a 16h,sfax,,vendredi,16h
+taxi de carthage vers le centre mercredi soir,centre,carthage,mercredi,soir
+I need a taxi from sfax to sousse tomorrow at 8h30,sousse,sfax,tomorrow,8h30
+take me to the airport tonight at 22h,airport,,tonight,22h
+drop me at the hotel from office friday morning,hotel,office,friday,morning
+book a ride to monastir next monday at 7h,monastir,,next monday,7h
+I want to go to hammamet tomorrow evening,hammamet,,tomorrow,evening
+take me from my house to the station on saturday,station,house,saturday,
+I need a cab from the airport to tunis today,tunis,airport,today,
+go to nabeul on wednesday at noon,nabeul,,wednesday,noon
+please take me to sfax this friday at 15h,sfax,,this friday,15h
+I need a ride from home to the hospital tomorrow morning,hospital,home,tomorrow,morning
+taxi from la marsa to carthage on sunday evening,carthage,la marsa,sunday,evening
+I want a cab to djerba next thursday,djerba,,next thursday,
+take me to the train station this saturday at 6h,train station,,this saturday,6h
+ride from office to airport tomorrow at 9h,airport,office,tomorrow,9h
+I need to go to bizerte now,bizerte,,now,
+drop me at the city center from hotel on monday,city center,hotel,monday,
+take me to kairouan tomorrow at 13h,kairouan,,tomorrow,13h
+can you pick me up from the airport and take me to tunis tonight,tunis,airport,tonight,
+I want to go to the hotel now from my office,hotel,office,now,
+ride to sousse saturday night,sousse,,saturday,night
+من هنا إلى سوسة غدا في المساء,سوسة,هنا,غدا,المساء
+أريد سيارة إلى تونس الآن,تونس,,الآن,
+من المطار إلى صفاقس يوم الجمعة صباحا,صفاقس,المطار,الجمعة,صباحا
+احتاج تاكسي من المكتب إلى المطار غدا,المطار,المكتب,غدا,
+أريد الذهاب إلى الحمامات غدا صباحا,الحمامات,,غدا,صباحا
+من منزلي إلى المطار يوم الأحد,المطار,منزلي,الأحد,
+أريد تاكسي من سوسة إلى صفاقس يوم الاثنين,صفاقس,سوسة,الاثنين,
+خذني من المكتب إلى المحطة الآن,المحطة,المكتب,الآن,
+أريد الذهاب إلى تونس مساء الجمعة,تونس,,مساء الجمعة,
+من الفندق إلى وسط المدينة غدا,وسط المدينة,الفندق,غدا,
+تاكسي من البيت إلى المطار يوم الخميس صباحا,المطار,البيت,الخميس,صباحا
+أريد تاكسي إلى نابل الآن,نابل,,الآن,
+خذني من محطة القطار إلى الحمامات يوم السبت,الحمامات,محطة القطار,السبت,
+أريد الذهاب من المطار إلى سوسة مساء,سوسة,المطار,,مساء
+تاكسي إلى بنزرت يوم الأربعاء في المساء,بنزرت,,الأربعاء,المساء
+nheb nemchi nabeul el-khamis ba3d dhuhr,nabeul,,el-khamis,ba3d dhuhr
+conduire de mon bureau a l'aéroport demain 20h,l'aéroport,mon bureau,demain,20h
+أريد تاكسي إلى حمام الأنف غدا,حمام الأنف,,غدا,
+taxi de mon domicile vers la gare aujourd'hui a 18h,la gare,mon domicile,aujourd'hui,18h
+conduire de mon domicile a kairouan lundi 14h,kairouan,mon domicile,lundi,14h
+take me to sfax tonight at 8h,sfax,,tonight,8h
+book a ride to monastir day after tomorrow at evening,monastir,,day after tomorrow,evening
+wein taxi ghodwa 8h,,,ghodwa,8h
+can you drive me from the hotel to hammamet tuesday,hammamet,the hotel,tuesday,
+wein taxi ghodwa 18h,,,ghodwa,18h
+please take me to the station this day after tomorrow at 22h,the station,,day after tomorrow,22h
+conduire de mon bureau a hammamet dimanche après-midi,hammamet,mon bureau,dimanche,après-midi
+I need a taxi to monastir tomorrow,monastir,,tomorrow,
+خذني إلى جربة الخميس في الظهر,جربة,,الخميس,الظهر
+I want to go to monastir sunday at night,monastir,,sunday,night
+khodni lel sfax el-talata 8h30,sfax,,el-talata,8h30
+aller a djerba ce soir,djerba,,ce soir,
+please take me to the airport this monday at 7h,the airport,,monday,7h
+take me to monastir today at 13h,monastir,,today,13h
+drop me at sousse from the hotel monday,sousse,the hotel,monday,
+ride from la marsa to kairouan sunday at 14h,kairouan,la marsa,sunday,14h
+taxi depuis mon hôtel jusqu a monastir mercredi,monastir,mon hôtel,mercredi,
+I need a ride from the station to kairouan thursday at 9h,kairouan,the station,thursday,9h
+ride from office to the airport tuesday at evening,the airport,office,tuesday,evening
+bch nemchi sfax el-jemaa 10h,sfax,,el-jemaa,10h
+احتاج تاكسي من المنزل إلى القيروان الأحد,القيروان,المنزل,الأحد,
+احتاج تاكسي من الفندق إلى المطار اليوم,المطار,الفندق,اليوم,
+nemchi matar el-ahad fel 10h,matar,,el-ahad,10h
+I need a taxi to nabeul tonight,nabeul,,tonight,
+taxi de mon bureau a nabeul mercredi,nabeul,mon bureau,mercredi,
+je pars de mon bureau vers nabeul dimanche a 18h,nabeul,mon bureau,dimanche,18h
+aller a bizerte vendredi,bizerte,,vendredi,
+khodni lel bizerte tawwa sbeh,bizerte,,tawwa,sbeh
+khodni men ennasr lel nabeul el-khamis,nabeul,ennasr,el-khamis,
+nemchi sousse min hotel ghodwa,sousse,hotel,ghodwa,
+أريد تاكسي إلى المطار الجمعة,المطار,,الجمعة,
+besoin d un taxi de la marsa pour l'aéroport vendredi,l'aéroport,la marsa,vendredi,
+get me a taxi to the station tonight at afternoon,the station,,tonight,afternoon
+conduire de la gare a kairouan dimanche 8h30,kairouan,la gare,dimanche,8h30
+I need a cab from the station to djerba tomorrow,djerba,the station,tomorrow,
+taxi de mon bureau vers bizerte aujourd'hui a 20h,bizerte,mon bureau,aujourd'hui,20h
+emmene moi a monastir aujourd'hui a soir,monastir,,aujourd'hui,soir
+nemchi hammamet min beit el-itnin,hammamet,beit,el-itnin,
+3aybni taxi men dar lel nabeul tawwa ba3d dhuhr,nabeul,dar,tawwa,ba3d dhuhr
+conduire de mon domicile a la gare mardi après-midi,la gare,mon domicile,mardi,après-midi
+أريد الذهاب إلى المنستير غدا المساء,المنستير,,غدا,المساء
+خذني إلى القيروان الأحد في 14h,القيروان,,الأحد,14h
+nemchi sousse lyoum fel 9h,sousse,,lyoum,9h
+I need a taxi to monastir monday,monastir,,monday,
+je pars de la marsa vers sfax ce soir a midi,sfax,la marsa,ce soir,midi
+I need a cab from office to sousse tuesday,sousse,office,tuesday,
+nheb nemchi matar lyoum 3achiya,matar,,lyoum,3achiya
+aller a kairouan mardi,kairouan,,mardi,
+من المرسى إلى حمام الأنف الجمعة 9h,حمام الأنف,المرسى,الجمعة,9h
+wein taxi el-ahad 10h,,,el-ahad,10h
+خذني إلى القيروان الثلاثاء في 14h,القيروان,,الثلاثاء,14h
+taxi de la gare vers monastir aujourd'hui a 20h,monastir,la gare,aujourd'hui,20h
+taxi men bureau lel hammamet lyoum,hammamet,bureau,lyoum,
+احتاج تاكسي من المحطة إلى صفاقس اليوم,صفاقس,المحطة,اليوم,
+wein taxi lel sousse el-arba3 3achiya,sousse,,el-arba3,3achiya
+reserver un taxi jeudi après-midi pour sousse,sousse,,jeudi,après-midi
+khodni lel sousse ba3d ghodwa 7h30,sousse,,ba3d ghodwa,7h30
+take me from office to bizerte monday,bizerte,office,monday,
+drop me at nabeul from office tuesday,nabeul,office,tuesday,
+I need a taxi to hammamet tuesday,hammamet,,tuesday,
+bch nemchi matar el-khamis 18h,matar,,el-khamis,18h
+book a ride to bizerte tomorrow at afternoon,bizerte,,tomorrow,afternoon
+take me from office to djerba wednesday,djerba,office,wednesday,
+can you drive me from the station to hammamet sunday,hammamet,the station,sunday,
+please take me to sousse this friday at night,sousse,,friday,night
+bch nemchi matar el-jemaa leyl,matar,,el-jemaa,leyl
+can you drive me from office to bizerte monday,bizerte,office,monday,
+get me a taxi to djerba saturday at 15h,djerba,,saturday,15h
+bch nemchi kairouan el-ahad sbeh,kairouan,,el-ahad,sbeh
+khodni men ennasr lel sfax el-ahad,sfax,ennasr,el-ahad,
+conduire de la marsa a l'aéroport ce soir 18h,l'aéroport,la marsa,ce soir,18h
+bch nemchi sousse el-jemaa 18h,sousse,,el-jemaa,18h
+khodni men hotel lel matar el-jemaa,matar,hotel,el-jemaa,
+من المنزل إلى نابل الخميس الصباح,نابل,المنزل,الخميس,الصباح
+ride from office to sousse day after tomorrow at 13h,sousse,office,day after tomorrow,13h
+احتاج تاكسي من المكتب إلى المنستير الجمعة,المنستير,المكتب,الجمعة,
+reserver un taxi vendredi 14h30 pour hammamet,hammamet,,vendredi,14h30
+drop me at nabeul from office friday,nabeul,office,friday,
+wein taxi lyoum 12h,,,lyoum,12h
+من المكتب إلى جربة الخميس صباحا,جربة,المكتب,الخميس,صباحا
+taxi de mon bureau vers monastir ce soir a 8h,monastir,mon bureau,ce soir,8h
+I need a taxi to nabeul day after tomorrow,nabeul,,day after tomorrow,
+تاكسي إلى المطار الخميس في الصباح,المطار,,الخميس,الصباح
+taxi men dar lel gare el-ahad sbeh,gare,dar,el-ahad,sbeh
+khodni lel kairouan el-itnin 8h30,kairouan,,el-itnin,8h30
+drop me at the airport from the station tomorrow,the airport,the station,tomorrow,
+احتاج تاكسي من المكتب إلى نابل اليوم,نابل,المكتب,اليوم,
+أريد تاكسي إلى المطار الثلاثاء,المطار,,الثلاثاء,
+je dois arriver a kairouan demain a 8h30,kairouan,,demain,8h30
+can you drive me from the hotel to sousse saturday,sousse,the hotel,saturday,
+please take me to kairouan this day after tomorrow at 9h,kairouan,,day after tomorrow,9h
+get me a taxi to sfax monday at 9h,sfax,,monday,9h
+تاكسي إلى صفاقس السبت في 9h,صفاقس,,السبت,9h
+taxi men bureau lel monastir ba3d ghodwa 10h,monastir,bureau,ba3d ghodwa,10h
+I need a cab from la marsa to djerba sunday,djerba,la marsa,sunday,
+je pars de la marsa vers sfax dimanche a soir,sfax,la marsa,dimanche,soir
+get me a taxi to the station day after tomorrow at evening,the station,,day after tomorrow,evening
+besoin d un taxi de la gare pour monastir lundi,monastir,la gare,lundi,
+je veux aller a hammamet lundi 14h,hammamet,,lundi,14h
+nheb nemchi kairouan tawwa,kairouan,,,
+conduire de la marsa a djerba ce soir après-midi,djerba,la marsa,ce soir,après-midi
+besoin d un taxi de mon bureau pour sousse ce soir,sousse,mon bureau,ce soir,
+aller a l'aéroport mardi,l'aéroport,,mardi,
+3aybni taxi men dar lel sousse tawwa dhuhr,sousse,dar,tawwa,dhuhr
+تاكسي إلى المطار الثلاثاء في 20h,المطار,,الثلاثاء,20h
+I need a cab from the station to the airport tonight,the airport,the station,tonight,
+من المرسى إلى جربة السبت الليل,جربة,المرسى,السبت,الليل
+get me a taxi to djerba sunday at afternoon,djerba,,sunday,afternoon
+I need a cab from home to nabeul monday,nabeul,home,monday,
+I want to go to bizerte wednesday at evening,bizerte,,wednesday,evening
+aller a monastir ce soir,monastir,,ce soir,
+conduire de mon hôtel a sousse ce soir 9h,sousse,mon hôtel,ce soir,9h
+get me a taxi to djerba tonight at morning,djerba,,tonight,morning
+reserver un taxi jeudi 14h30 pour kairouan,kairouan,,jeudi,14h30
+khodni lel kairouan tawwa sbeh,kairouan,,tawwa,sbeh
+take me from la marsa to kairouan wednesday,kairouan,la marsa,wednesday,
+taxi de mon hôtel a nabeul ce soir,nabeul,mon hôtel,ce soir,
+أريد تاكسي إلى القيروان الخميس,القيروان,,الخميس,
+تاكسي إلى صفاقس الأربعاء في الظهر,صفاقس,,الأربعاء,الظهر
+wein taxi el-arba3 20h,,,el-arba3,20h
+bch nemchi kairouan el-jemaa 12h,kairouan,,el-jemaa,12h
+من المنزل إلى نابل الأحد 8h,نابل,المنزل,الأحد,8h
+taxi de la gare a bizerte ce soir,bizerte,la gare,ce soir,
+drop me at sousse from the hotel tuesday,sousse,the hotel,tuesday,
+taxi men hotel lel hammamet el-itnin,hammamet,hotel,el-itnin,
+besoin d un taxi de mon bureau pour hammamet aujourd'hui,hammamet,mon bureau,aujourd'hui,
+taxi de mon bureau vers la gare vendredi a après-midi,la gare,mon bureau,vendredi,après-midi
+taxi de mon bureau a la gare lundi,la gare,mon bureau,lundi,
+تاكسي إلى نابل الخميس في الظهر,نابل,,الخميس,الظهر
+wein taxi lel nabeul ghodwa 20h,nabeul,,ghodwa,20h
+taxi men hotel lel kairouan ba3d ghodwa 8h30,kairouan,hotel,ba3d ghodwa,8h30
+taxi vers la gare dimanche a après-midi,la gare,,dimanche,après-midi
+taxi men ennasr lel nabeul el-arba3,nabeul,ennasr,el-arba3,
+khodni lel hammamet el-itnin 18h,hammamet,,el-itnin,18h
+تاكسي إلى بنزرت غدا في 18h,بنزرت,,غدا,18h
+take me to kairouan tuesday at evening,kairouan,,tuesday,evening
+خذني إلى جربة الجمعة في 9h,جربة,,الجمعة,9h
+conduire de mon domicile a nabeul jeudi 11h,nabeul,mon domicile,jeudi,11h
+أريد الذهاب إلى القيروان السبت 8h,القيروان,,السبت,8h
+taxi vers nabeul mardi a après-midi,nabeul,,mardi,après-midi
+احتاج تاكسي من المحطة إلى القيروان الخميس,القيروان,المحطة,الخميس,
+nheb nemchi bizerte tawwa,bizerte,,,
+taxi de mon hôtel a bizerte samedi,bizerte,mon hôtel,samedi,
+take me from the station to nabeul wednesday,nabeul,the station,wednesday,
+3aybni taxi men dar lel sousse el-khamis 8h30,sousse,dar,el-khamis,8h30
+أريد الذهاب إلى المطار الاثنين 14h,المطار,,الاثنين,14h
+أريد الذهاب إلى حمام الأنف غدا صباحا,حمام الأنف,,غدا,صباحا
+reserver un taxi samedi 8h30 pour monastir,monastir,,samedi,8h30
+I need a cab from the station to the airport day after tomorrow,the airport,the station,day after tomorrow,
+تاكسي إلى المطار الخميس في 8h,المطار,,الخميس,8h
+خذني إلى نابل السبت في الليل,نابل,,السبت,الليل
+taxi men dar lel bizerte ghodwa,bizerte,dar,ghodwa,
+taxi de mon hôtel vers djerba samedi a 14h30,djerba,mon hôtel,samedi,14h30
+I need a taxi to monastir saturday,monastir,,saturday,
+je dois arriver a sfax samedi a matin,sfax,,samedi,matin
+taxi depuis mon bureau jusqu a hammamet mercredi,hammamet,mon bureau,mercredi,
+I need a ride from office to djerba tomorrow at 15h,djerba,office,tomorrow,15h
+khodni lel nabeul tawwa 14h,nabeul,,tawwa,14h
+خذني إلى صفاقس اليوم في صباحا,صفاقس,,اليوم,صباحا
+أريد تاكسي إلى سوسة الأحد,سوسة,,الأحد,
+أريد تاكسي إلى محطة القطار اليوم,محطة القطار,,اليوم,
+aller a la gare samedi,la gare,,samedi,
+nemchi matar min beit ba3d ghodwa,matar,beit,ba3d ghodwa,
+je pars de la marsa vers djerba mardi a nuit,djerba,la marsa,mardi,nuit
+خذني إلى محطة القطار اليوم في 20h,محطة القطار,,اليوم,20h
+nemchi monastir min marsa el-ahad,monastir,marsa,el-ahad,
+wein taxi lel monastir el-jemaa 18h,monastir,,el-jemaa,18h
+wein taxi lel hammamet ba3d ghodwa 14h,hammamet,,ba3d ghodwa,14h
+خذني إلى حمام الأنف الاثنين في صباحا,حمام الأنف,,الاثنين,صباحا
+I need a ride from la marsa to sousse sunday at afternoon,sousse,la marsa,sunday,afternoon
+please take me to the station this sunday at 13h,the station,,sunday,13h
+reserver un taxi mercredi après-midi pour sousse,sousse,,mercredi,après-midi
+taxi depuis mon hôtel jusqu a sousse aujourd'hui,sousse,mon hôtel,aujourd'hui,
+taxi depuis mon domicile jusqu a la gare samedi,la gare,mon domicile,samedi,
+أريد تاكسي إلى جربة السبت,جربة,,السبت,
+خذني إلى المطار الثلاثاء في 14h,المطار,,الثلاثاء,14h
+أريد تاكسي إلى محطة القطار اليوم,محطة القطار,,اليوم,
+تاكسي إلى بنزرت السبت في الصباح,بنزرت,,السبت,الصباح
+nemchi gare min marsa el-arba3,gare,marsa,el-arba3,
+nemchi nabeul el-arba3 fel sbeh,nabeul,,el-arba3,sbeh
+taxi de mon domicile a djerba samedi,djerba,mon domicile,samedi,
+emmene moi a kairouan dimanche a 16h,kairouan,,dimanche,16h
+أريد تاكسي إلى جربة الخميس,جربة,,الخميس,
+خذني إلى بنزرت غدا في الظهر,بنزرت,,غدا,الظهر
+drop me at nabeul from la marsa sunday,nabeul,la marsa,sunday,
+احتاج تاكسي من المنزل إلى جربة غدا,جربة,المنزل,غدا,
+take me from the hotel to sousse tonight,sousse,the hotel,tonight,
+nemchi matar tawwa fel 9h,matar,,tawwa,9h
+nemchi bizerte min hotel el-arba3,bizerte,hotel,el-arba3,
+تاكسي إلى جربة اليوم في الليل,جربة,,اليوم,الليل
+get me a taxi to sfax saturday at 14h,sfax,,saturday,14h
+أريد تاكسي إلى حمام الأنف الاثنين,حمام الأنف,,الاثنين,
+taxi depuis mon domicile jusqu a hammamet mercredi,hammamet,mon domicile,mercredi,
+أريد تاكسي إلى المنستير غدا,المنستير,,غدا,
+أريد تاكسي إلى صفاقس الأربعاء,صفاقس,,الأربعاء,
+nheb nemchi tunis ghodwa sbeh,tunis,,ghodwa,sbeh
+khodni lel sousse el-khamis 17h,sousse,,el-khamis,17h
+nemchi hammamet tawwa dhuhr,hammamet,,tawwa,dhuhr
+3aybni taxi men dar lel bizerte el-ahad leyl,bizerte,dar,el-ahad,leyl
+nemchi nabeul ba3d ghodwa 9h,nabeul,,ba3d ghodwa,9h
+khodni men maktab lel matar lyoum 14h,matar,maktab,lyoum,14h
+nheb taxi lel monastir el-jemaa sbeh,monastir,,el-jemaa,sbeh
+nemchi kairouan tawwa,kairouan,,tawwa,
+3aybni men beit lel sousse el-talata 18h,sousse,beit,el-talata,18h
+khodni lel gare ghodwa 7h,gare,,ghodwa,7h
+je veux aller a tunis demain a 10h,tunis,,demain,10h
+taxi de sfax vers sousse vendredi matin,sousse,sfax,vendredi,matin
+aller a hammamet ce soir a 21h,hammamet,,ce soir,21h
+taxi depuis mon domicile vers nabeul demain,nabeul,domicile,demain,
+aller a monastir lundi a 8h,monastir,,lundi,8h
+taxi de la gare vers bizerte mardi soir,bizerte,la gare,mardi,soir
+je dois aller a kairouan dimanche,kairouan,,dimanche,
+taxi de l aeroport vers tunis aujourd hui,tunis,aeroport,aujourd hui,
+aller a sousse apres-demain a midi,sousse,,apres-demain,midi
+taxi depuis bureau vers hammamet jeudi 16h,hammamet,bureau,jeudi,16h
+I need a taxi to tunis tomorrow morning,tunis,,tomorrow,morning
+take me from sfax to sousse friday at 17h,sousse,sfax,friday,17h
+go to hammamet tonight at 20h,hammamet,,tonight,20h
+ride from home to nabeul monday morning,nabeul,home,monday,morning
+book a taxi to monastir next tuesday at 9h,monastir,,next tuesday,9h
+take me to bizerte now,bizerte,,now,
+ride from office to tunis tomorrow at noon,tunis,office,tomorrow,noon
+I want to go to kairouan sunday evening,kairouan,,sunday,evening
+taxi from airport to sousse today,sousse,airport,today,
+go to nabeul wednesday at 14h,nabeul,,wednesday,14h
+أريد الذهاب إلى تونس غدا صباحا,تونس,,غدا,صباحا
+تاكسي من صفاقس إلى سوسة الجمعة مساء,سوسة,صفاقس,الجمعة,مساء
+أريد الذهاب إلى الحمامات الليلة في 20h,الحمامات,,الليلة,20h
+من المنزل إلى نابل الاثنين صباحا,نابل,المنزل,الاثنين,صباحا
+احجز لي سيارة إلى المنستير الثلاثاء 9h,المنستير,,الثلاثاء,9h
+خذني إلى بنزرت الآن,بنزرت,,الآن,
+من المكتب إلى تونس غدا ظهرا,تونس,المكتب,غدا,ظهرا
+أريد الذهاب إلى القيروان الأحد مساء,القيروان,,الأحد,مساء
+تاكسي من المطار إلى سوسة اليوم,سوسة,المطار,اليوم,
+اذهب إلى نابل الأربعاء 14h,نابل,,الأربعاء,14h

@@ -1,0 +1,417 @@
+@startuml MOVIROO_Class_Diagram
+
+!theme plain
+skinparam backgroundColor #FEFEFE
+skinparam class {
+    BackgroundColor #E3F2FD
+    BorderColor #1565C0
+    ArrowColor #1565C0
+    FontColor #0D47A1
+}
+skinparam classAttribute {
+    FontColor #37474F
+}
+skinparam classStereotype {
+    FontColor #1565C0
+}
+
+title Diagramme de Classes Global — Système MOVIROO
+
+' ═══════════════════════════════════════════════════════════════
+' CLASSES DE DOMAINE
+' ═══════════════════════════════════════════════════════════════
+
+class User {
+    - id : UUID
+    - nom : String
+    - email : String
+    - telephone : String
+    - motDePasse : String
+    - role : Enum {PASSENGER, DRIVER, ADMIN}
+    + sAuthentifier() : Token
+    + sInscrire() : User
+    + getRole() : Enum
+}
+
+class Passager {
+    + reserverTrajet()
+    + modifierReservation()
+    + annulerReservation()
+    + consulterHistorique() : List<Trajet>
+    + rechercherTrajet()
+}
+
+class Chauffeur {
+    - statut : StatutChauffeur
+    - positionActuelle : Location
+    + recevoirDemande()
+    + accepterCourse()
+    + refuserCourse()
+    + mettreAJourDisponibilite()
+    + signalerIncident()
+    + consulterCoursesEnCours() : List<Trajet>
+}
+
+enum StatutChauffeur {
+    DISPONIBLE
+    OCCUPE
+    HORS_LIGNE
+    EN_PAUSE
+}
+
+class Vehicule {
+    - id : UUID
+    - modele : String
+    - immatriculation : String
+    - couleur : String
+    - places : Integer
+    - annee : Integer
+    + verifier()
+    + modifier()
+}
+
+class Zone {
+    - id : UUID
+    - nom : String
+    - ville : String
+    - pays : String
+    - polygone : List<Point>
+    - actif : Boolean
+    + appartient(point : Location) : Boolean
+}
+
+class Gain {
+    - id : UUID
+    - chauffeurId : UUID
+    - mois : String
+    - totalCourses : Integer
+    - revenuTotal : Float
+    + calculer()
+    + genererRapport()
+}
+
+class Rapport {
+    - id : UUID
+    - type : Enum {UTILISATEURS, TRAJETS, GAINS, PERFORMANCES}
+    - periode : String
+    - contenu : JSON
+    + generer()
+    + exporter()
+}
+
+class Administrateur {
+    - id : UUID
+    - permissions : List<Enum>
+    + inviterUtilisateur()
+    + listerUtilisateurs() : List<User>
+    + modifierUtilisateur(id : UUID)
+    + bloquerUtilisateur(id : UUID)
+    + debloquerUtilisateur(id : UUID)
+    + supprimerUtilisateur(id : UUID)
+    + gererTrajets()
+    + gererVehicules()
+    + gererZones()
+    + declencherDispatch()
+    + consulterGains()
+    + consulterStatistiques()
+    + configurerSysteme()
+    + genererRapport()
+}
+
+class Trajet {
+    - id : UUID
+    - destination : String
+    - depart : String
+    - date : Date
+    - heure : Time
+    - statut : Enum {EN_ATTENTE, CONFIRME, ANNULE, TERMINE}
+    - creeLe : DateTime
+    + confirmer()
+    + annuler()
+    + modifier()
+    + getStatut() : Enum
+}
+
+class Reservation {
+    - id : UUID
+    - passagerId : UUID
+    - chauffeurId : UUID
+    - dateReservation : DateTime
+    + creer()
+    + valider()
+    + annuler()
+}
+
+class Location {
+    - nom : String
+    - alias : List<String>
+    - latitude : Float
+    - longitude : Float
+    + normaliser(raw : String) : String
+    + fuzzyMatch(candidate : String) : String
+}
+
+class Conversation {
+    - sessionId : String
+    - langue : String
+    - tours : Integer
+    - terminee : Boolean
+    - champsManquants : List<String>
+    - entites : Map<String, String>
+    + demarrer()
+    + repondre(champ : String, valeur : String)
+    + calculerManquants() : List<String>
+    + genererQuestion() : String
+    + genererConfirmation() : String
+}
+
+class EntiteExtraite {
+    - type : Enum {DESTINATION, DEPART, DATE, HEURE}
+    - valeurBrute : String
+    - valeurNormalisee : String
+    - confiance : Float
+    + normaliser()
+}
+
+' ═══════════════════════════════════════════════════════════════
+' CLASSES DE SERVICE / CONTRÔLE
+' ═══════════════════════════════════════════════════════════════
+
+class GestionnaireDialogue {
+    - sessions : Map<String, Conversation>
+    + creerSession() : Conversation
+    + traiterReponse(sessionId : String, audio : Bytes)
+    + obtenirSession(sessionId : String) : Conversation
+    + genererQuestion(conversation : Conversation) : String
+    + genererConfirmation(conversation : Conversation) : String
+}
+
+class ExtracteurEntites {
+    + extraire(texte : String) : Map
+    + normaliserLocation(raw : String) : String
+    + normaliserDate(raw : String) : String
+    + normaliserHeure(raw : String) : String
+}
+
+class ReconnaissanceVocale {
+    + transcrire(audio : Bytes, langue : String) : Tuple<String, String>
+    + detecterLangue(texte : String) : String
+}
+
+class SyntheseVocale {
+    + synthetiser(texte : String, langue : String)
+    + listerVoix() : List
+}
+
+class ModeleNER {
+    - typeModele : String
+    - version : String
+    - f1Score : Float
+    + predire(texte : String) : Map
+    + entrainer(donnees : List)
+    + evaluer(donneesTest : List) : Float
+    + charger()
+}
+
+class ModelePrix {
+    - id : UUID
+    - nom : String
+    - version : String
+    - tauxBase : Float
+    - tauxKm : Float
+    - tauxMinute : Float
+    - multiplicateurSurge : Float
+    + calculerPrix(distanceKm : Float, dureeMinutes : Float) : Float
+    + appliquerSurge(taux : Float)
+    + entrainer(donnees : List)
+    + evaluer() : Float
+}
+
+class ModeleVoix {
+    - type : Enum {STT, TTS}
+    - modele : String
+    - langues : List<String>
+    - version : String
+    + transcrire(audio : Bytes, langue : String) : String
+    + detecterLangue(audio : Bytes) : String
+    + synthetiser(texte : String, langue : String) : Bytes
+    + charger()
+}
+
+class ModeleChatbot {
+    - id : UUID
+    - modele : String
+    - version : String
+    - temperature : Float
+    - maxTokens : Integer
+    + genererReponse(prompt : String, contexte : Map) : String
+    + genererQuestion(champsManquants : List<String>, langue : String) : String
+    + genererConfirmation(entites : Map, langue : String) : String
+    + finetune(donnees : List)
+    + evaluer() : Float
+}
+
+class ServiceAuth {
+    + enregistrer(utilisateur : User) : User
+    + connecter(email : String, mdp : String) : Token
+    + verifierToken(token : String) : User
+}
+
+class ServiceAdmin {
+    + obtenirStatistiques() : Stats
+    + gererModeles()
+    + listerUtilisateurs() : List<User>
+}
+
+' ═══════════════════════════════════════════════════════════════
+' CLASSES DE BOUNDARY (API / INTERFACE)
+' ═══════════════════════════════════════════════════════════════
+
+class ControleurVoix {
+    + transcrire(fichier : UploadFile) : JSON
+    + repondre(fichier : UploadFile, contexte : Map) : JSON
+    + dialogueTexte(texte : String, langue : String) : JSON
+    + healthCheck() : JSON
+}
+
+class ControleurTrajet {
+    + reserver(params : Map) : Trajet
+    + modifier(id : UUID, params : Map) : Trajet
+    + annuler(id : UUID) : Boolean
+    + historiquePassager(id : UUID) : List<Trajet>
+    + historiqueChauffeur(id : UUID) : List<Trajet>
+}
+
+class ControleurChauffeur {
+    + recevoirDemande(id : UUID) : Trajet
+    + accepterCourse(id : UUID) : Boolean
+    + refuserCourse(id : UUID) : Boolean
+    + mettreAJourDisponibilite(id : UUID, dispo : Boolean)
+    + signalerIncident(id : UUID, description : String)
+    + coursesEnCours(id : UUID) : List<Trajet>
+}
+
+' ═══════════════════════════════════════════════════════════════
+' HÉRITAGE
+' ═══════════════════════════════════════════════════════════════
+
+User <|-- Passager
+User <|-- Chauffeur
+User <|-- Administrateur
+
+' ═══════════════════════════════════════════════════════════════
+' ASSOCIATIONS (Domaine)
+' ═══════════════════════════════════════════════════════════════
+
+Passager "1" --> "0..*" Trajet : réserve >
+Trajet "1" --> "0..1" Chauffeur : est affecté à >
+Trajet "1" --> "1" Location : destination >
+Trajet "1" --> "0..1" Location : départ >
+Trajet "1" --> "0..1" Reservation : génère >
+Reservation "1" --> "1" Conversation : déclenche >
+
+Chauffeur "1" --> "0..1" Vehicule : utilise >
+Chauffeur "1" --> "0..*" Zone : couvre >
+
+Trajet "1" --> "0..1" Zone : appartient à >
+Conversation "1" --> "0..*" EntiteExtraite : contient >
+
+Administrateur "1" --> "0..*" Trajet : supervise >
+Administrateur "1" --> "0..*" Vehicule : gère >
+Administrateur "1" --> "0..*" Zone : gère >
+Administrateur "1" --> "0..*" Gain : consulte >
+Administrateur "1" --> "0..*" Rapport : génère >
+
+' ═══════════════════════════════════════════════════════════════
+' ASSOCIATIONS (Service / Contrôle)
+' ═══════════════════════════════════════════════════════════════
+
+GestionnaireDialogue "1" --> "1" ReconnaissanceVocale : utilise >
+GestionnaireDialogue "1" --> "1" SyntheseVocale : utilise >
+GestionnaireDialogue "1" --> "1" ExtracteurEntites : utilise >
+GestionnaireDialogue "1" --> "0..*" Conversation : gère >
+
+ExtracteurEntites "1" --> "1" ModeleNER : utilise >
+ExtracteurEntites "1" --> "0..*" Location : normalise >
+
+ReconnaissanceVocale "1" --> "1" ModeleVoix : utilise >
+SyntheseVocale "1" --> "1" ModeleVoix : utilise >
+
+GestionnaireDialogue "1" --> "1" ModeleChatbot : utilise >
+
+Trajet "1" --> "1" ModelePrix : utilise >
+
+ServiceAdmin "1" --> "1" ServiceAuth : utilise >
+ServiceAdmin "1" --> "1" ModeleNER : gère >
+ServiceAdmin "1" --> "1" ModelePrix : configure >
+ServiceAdmin "1" --> "1" ModeleVoix : configure >
+ServiceAdmin "1" --> "1" ModeleChatbot : configure >
+
+ControleurVoix "1" --> "1" GestionnaireDialogue : utilise >
+ControleurVoix "1" --> "1" ServiceAuth : utilise >
+
+ControleurTrajet "1" --> "1" ServiceAuth : utilise >
+ControleurChauffeur "1" --> "1" ServiceAuth : utilise >
+
+' ═══════════════════════════════════════════════════════════════
+' NOTES
+' ═══════════════════════════════════════════════════════════════
+
+note right of User
+  **Héritage :** Passager, Chauffeur et Administrateur
+  héritent de la classe abstraite User
+end note
+
+note bottom of GestionnaireDialogue
+  Le cœur du système conversationnel :
+  gère les sessions multi-tours, coordonne
+  la reconnaissance vocale, l'extraction d'entités
+  et la synthèse vocale
+end note
+
+note bottom of ExtracteurEntites
+  Extraction hybride BERT + spaCy :
+  localisations, dates et heures depuis
+  la voix ou le texte en TN/FR/EN/AR
+end note
+
+note bottom of ModelePrix
+  **Modèle ML pour le pricing :**
+  Calcule le prix en fonction de la distance,
+  durée, classe de véhicule et surge
+end note
+
+note bottom of ModeleVoix
+  **Modèles vocaux :**
+  - STT : Whisper (audio → texte)
+  - TTS : pyttsx3 (texte → audio)
+end note
+
+note bottom of ModeleChatbot
+  **Modèle conversationnel :**
+  Génère questions et confirmations
+  adaptées à la langue et au contexte
+end note
+
+note bottom of Vehicule
+  **Classe ajoutée :**
+  Chaque chauffeur possède un véhicule
+  (modèle, immatriculation, places)
+end note
+
+note bottom of Zone
+  **Classe ajoutée :**
+  Zones géographiques de travail
+  couvertes par le chauffeur
+end note
+
+note right of Administrateur
+  **Admin réel (NestJS backend) :**
+  - Gestion des utilisateurs (CRUD, blocage)
+  - Gestion des trajets (liste, annulation)
+  - Gestion des véhicules (CRUD, assignation)
+  - Gestion des zones (création, assignation)
+  - Dispatch manuel, gains, rapports
+end note
+
+@enduml

@@ -1,0 +1,5682 @@
+[
+  {
+    "text": "nheb nemchi hammamet ghodwa 18h",
+    "spans": [
+      {
+        "start": 12,
+        "end": 20,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "label": "DATE"
+      },
+      {
+        "start": 28,
+        "end": 31,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "khodni lel matar tawwa",
+    "spans": [
+      {
+        "start": 11,
+        "end": 16,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 17,
+        "end": 22,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "bch nemchi sousse el-jemaa fel sbeh",
+    "spans": [
+      {
+        "start": 11,
+        "end": 17,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 18,
+        "end": 26,
+        "label": "DATE"
+      },
+      {
+        "start": 31,
+        "end": 35,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "nemchi sfax min el-maktab el-khamis ba3d dhuhr",
+    "spans": [
+      {
+        "start": 7,
+        "end": 11,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 16,
+        "end": 25,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 26,
+        "end": 35,
+        "label": "DATE"
+      },
+      {
+        "start": 36,
+        "end": 46,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "3aybni taxi men hne lel funduk el-ahad 3achiya",
+    "spans": [
+      {
+        "start": 16,
+        "end": 19,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 31,
+        "end": 38,
+        "label": "DATE"
+      },
+      {
+        "start": 39,
+        "end": 46,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "nheb nemchi aeroport ghodwa 8h30 min beit",
+    "spans": [
+      {
+        "start": 12,
+        "end": 20,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "label": "DATE"
+      },
+      {
+        "start": 28,
+        "end": 32,
+        "label": "TIME"
+      },
+      {
+        "start": 37,
+        "end": 41,
+        "label": "DEPARTURE"
+      }
+    ]
+  },
+  {
+    "text": "khodni men dar lel matar el-itnin sbeh",
+    "spans": [
+      {
+        "start": 11,
+        "end": 14,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 19,
+        "end": 24,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 25,
+        "end": 33,
+        "label": "DATE"
+      },
+      {
+        "start": 34,
+        "end": 38,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "nemchi monastir ba3d ghodwa",
+    "spans": [
+      {
+        "start": 7,
+        "end": 15,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 16,
+        "end": 27,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "taxi men ennasr lel lac tawwa",
+    "spans": [
+      {
+        "start": 9,
+        "end": 15,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 20,
+        "end": 23,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 24,
+        "end": 29,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "wein bch nemchi lyoum el-lil",
+    "spans": [
+      {
+        "start": 16,
+        "end": 21,
+        "label": "DATE"
+      },
+      {
+        "start": 22,
+        "end": 28,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "nemchi nabeul el-talata sbeh",
+    "spans": [
+      {
+        "start": 7,
+        "end": 13,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 14,
+        "end": 23,
+        "label": "DATE"
+      },
+      {
+        "start": 24,
+        "end": 28,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "3aybni men beit lel gare ghodwa",
+    "spans": [
+      {
+        "start": 11,
+        "end": 15,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 20,
+        "end": 24,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "khodni lel funduk lyoum dhuhr",
+    "spans": [
+      {
+        "start": 11,
+        "end": 17,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 18,
+        "end": 23,
+        "label": "DATE"
+      },
+      {
+        "start": 24,
+        "end": 29,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "nemchi bizerte el-arba3 3achiya",
+    "spans": [
+      {
+        "start": 7,
+        "end": 14,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 15,
+        "end": 23,
+        "label": "DATE"
+      },
+      {
+        "start": 24,
+        "end": 31,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "taxi men bureau lel matar el-jemaa sbeh",
+    "spans": [
+      {
+        "start": 9,
+        "end": 15,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 20,
+        "end": 25,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 26,
+        "end": 34,
+        "label": "DATE"
+      },
+      {
+        "start": 35,
+        "end": 39,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "nemchi kairouan ghodwa 10h",
+    "spans": [
+      {
+        "start": 7,
+        "end": 15,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 16,
+        "end": 22,
+        "label": "DATE"
+      },
+      {
+        "start": 23,
+        "end": 26,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "khodni lel marsa el-ahad leyl",
+    "spans": [
+      {
+        "start": 11,
+        "end": 16,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 17,
+        "end": 24,
+        "label": "DATE"
+      },
+      {
+        "start": 25,
+        "end": 29,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "taxi men dar lel hotel tawwa",
+    "spans": [
+      {
+        "start": 9,
+        "end": 12,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 17,
+        "end": 22,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 23,
+        "end": 28,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "nemchi sfax ba3d ghodwa 7h",
+    "spans": [
+      {
+        "start": 7,
+        "end": 11,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 12,
+        "end": 23,
+        "label": "DATE"
+      },
+      {
+        "start": 24,
+        "end": 26,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "3aybni men el-maktab lel aeroport el-khamis 14h",
+    "spans": [
+      {
+        "start": 11,
+        "end": 20,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 25,
+        "end": 33,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 34,
+        "end": 43,
+        "label": "DATE"
+      },
+      {
+        "start": 44,
+        "end": 47,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "nemchi djerba el-jemaa el-jaya",
+    "spans": [
+      {
+        "start": 7,
+        "end": 13,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 14,
+        "end": 30,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "khodni lel mahatta ghodwa sbeh",
+    "spans": [
+      {
+        "start": 11,
+        "end": 18,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "label": "DATE"
+      },
+      {
+        "start": 26,
+        "end": 30,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "taxi men beit lel centre el-itnin 9h30",
+    "spans": [
+      {
+        "start": 9,
+        "end": 13,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 18,
+        "end": 24,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 25,
+        "end": 33,
+        "label": "DATE"
+      },
+      {
+        "start": 34,
+        "end": 38,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "nemchi sousse tawwa fel dhuhr",
+    "spans": [
+      {
+        "start": 7,
+        "end": 13,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 14,
+        "end": 19,
+        "label": "DATE"
+      },
+      {
+        "start": 24,
+        "end": 29,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "wein bch taxi men dar lel matar",
+    "spans": [
+      {
+        "start": 18,
+        "end": 21,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 26,
+        "end": 31,
+        "label": "DESTINATION"
+      }
+    ]
+  },
+  {
+    "text": "je veux aller a tunis demain matin",
+    "spans": [
+      {
+        "start": 16,
+        "end": 21,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 22,
+        "end": 28,
+        "label": "DATE"
+      },
+      {
+        "start": 29,
+        "end": 34,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "taxi de la marsa vers le centre demain a 14h",
+    "spans": [
+      {
+        "start": 8,
+        "end": 16,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 32,
+        "end": 38,
+        "label": "DATE"
+      },
+      {
+        "start": 41,
+        "end": 44,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "aller de bizerte a nabeul mercredi a 9h",
+    "spans": [
+      {
+        "start": 9,
+        "end": 16,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 26,
+        "end": 34,
+        "label": "DATE"
+      },
+      {
+        "start": 37,
+        "end": 39,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "taxi depuis mon bureau jusqu a sfax vendredi soir",
+    "spans": [
+      {
+        "start": 16,
+        "end": 22,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 31,
+        "end": 35,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 36,
+        "end": 44,
+        "label": "DATE"
+      },
+      {
+        "start": 45,
+        "end": 49,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "aller a sousse ce soir a 20h",
+    "spans": [
+      {
+        "start": 8,
+        "end": 14,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 15,
+        "end": 22,
+        "label": "DATE"
+      },
+      {
+        "start": 25,
+        "end": 28,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "je pars de tunis vers monastir lundi matin",
+    "spans": [
+      {
+        "start": 11,
+        "end": 16,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 22,
+        "end": 30,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 31,
+        "end": 36,
+        "label": "DATE"
+      },
+      {
+        "start": 37,
+        "end": 42,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "reserver un taxi pour demain apres-midi a sfax",
+    "spans": [
+      {
+        "start": 22,
+        "end": 28,
+        "label": "DATE"
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "label": "TIME"
+      },
+      {
+        "start": 42,
+        "end": 46,
+        "label": "DESTINATION"
+      }
+    ]
+  },
+  {
+    "text": "aller a hammamet samedi a 11h",
+    "spans": [
+      {
+        "start": 8,
+        "end": 16,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 17,
+        "end": 23,
+        "label": "DATE"
+      },
+      {
+        "start": 26,
+        "end": 29,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "taxi de l aeroport vers la marsa jeudi matin",
+    "spans": [
+      {
+        "start": 10,
+        "end": 18,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 24,
+        "end": 32,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 33,
+        "end": 38,
+        "label": "DATE"
+      },
+      {
+        "start": 39,
+        "end": 44,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "je dois aller a kairouan dimanche soir",
+    "spans": [
+      {
+        "start": 16,
+        "end": 24,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 25,
+        "end": 33,
+        "label": "DATE"
+      },
+      {
+        "start": 34,
+        "end": 38,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "taxi depuis bizerte vers tunis ce soir",
+    "spans": [
+      {
+        "start": 12,
+        "end": 19,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 25,
+        "end": 30,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 31,
+        "end": 38,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "aller a djerba apres-demain",
+    "spans": [
+      {
+        "start": 8,
+        "end": 14,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 15,
+        "end": 27,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "taxi de mon hotel vers la gare lundi a 8h",
+    "spans": [
+      {
+        "start": 12,
+        "end": 17,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 23,
+        "end": 30,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 31,
+        "end": 36,
+        "label": "DATE"
+      },
+      {
+        "start": 39,
+        "end": 41,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "je veux un taxi pour aller au centre ce matin",
+    "spans": [
+      {
+        "start": 30,
+        "end": 36,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 37,
+        "end": 45,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "taxi de la marsa vers sfax vendredi 18h30",
+    "spans": [
+      {
+        "start": 8,
+        "end": 16,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 22,
+        "end": 26,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 27,
+        "end": 35,
+        "label": "DATE"
+      },
+      {
+        "start": 36,
+        "end": 41,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "aller de sousse a monastir mardi apres-midi",
+    "spans": [
+      {
+        "start": 9,
+        "end": 15,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 18,
+        "end": 26,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 27,
+        "end": 32,
+        "label": "DATE"
+      },
+      {
+        "start": 33,
+        "end": 43,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "taxi pour demain matin de mon bureau a l aeroport",
+    "spans": [
+      {
+        "start": 10,
+        "end": 16,
+        "label": "DATE"
+      },
+      {
+        "start": 17,
+        "end": 22,
+        "label": "TIME"
+      },
+      {
+        "start": 30,
+        "end": 36,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 41,
+        "end": 49,
+        "label": "DESTINATION"
+      }
+    ]
+  },
+  {
+    "text": "aller a nabeul maintenant depuis tunis",
+    "spans": [
+      {
+        "start": 8,
+        "end": 14,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 15,
+        "end": 25,
+        "label": "DATE"
+      },
+      {
+        "start": 33,
+        "end": 38,
+        "label": "DEPARTURE"
+      }
+    ]
+  },
+  {
+    "text": "je dois arriver a sfax vendredi a 16h",
+    "spans": [
+      {
+        "start": 18,
+        "end": 22,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 23,
+        "end": 31,
+        "label": "DATE"
+      },
+      {
+        "start": 34,
+        "end": 37,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "taxi de carthage vers le centre mercredi soir",
+    "spans": [
+      {
+        "start": 8,
+        "end": 16,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 32,
+        "end": 40,
+        "label": "DATE"
+      },
+      {
+        "start": 41,
+        "end": 45,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "I need a taxi from sfax to sousse tomorrow at 8h30",
+    "spans": [
+      {
+        "start": 19,
+        "end": 23,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 27,
+        "end": 33,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 34,
+        "end": 42,
+        "label": "DATE"
+      },
+      {
+        "start": 46,
+        "end": 50,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "take me to the airport tonight at 22h",
+    "spans": [
+      {
+        "start": 15,
+        "end": 22,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 23,
+        "end": 30,
+        "label": "DATE"
+      },
+      {
+        "start": 34,
+        "end": 37,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "drop me at the hotel from office friday morning",
+    "spans": [
+      {
+        "start": 15,
+        "end": 20,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 33,
+        "end": 39,
+        "label": "DATE"
+      },
+      {
+        "start": 40,
+        "end": 47,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "book a ride to monastir next monday at 7h",
+    "spans": [
+      {
+        "start": 15,
+        "end": 23,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 24,
+        "end": 35,
+        "label": "DATE"
+      },
+      {
+        "start": 39,
+        "end": 41,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "I want to go to hammamet tomorrow evening",
+    "spans": [
+      {
+        "start": 16,
+        "end": 24,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 25,
+        "end": 33,
+        "label": "DATE"
+      },
+      {
+        "start": 34,
+        "end": 41,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "take me from my house to the station on saturday",
+    "spans": [
+      {
+        "start": 16,
+        "end": 21,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 29,
+        "end": 36,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 40,
+        "end": 48,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "I need a cab from the airport to tunis today",
+    "spans": [
+      {
+        "start": 22,
+        "end": 29,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 33,
+        "end": 38,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 39,
+        "end": 44,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "go to nabeul on wednesday at noon",
+    "spans": [
+      {
+        "start": 6,
+        "end": 12,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 16,
+        "end": 25,
+        "label": "DATE"
+      },
+      {
+        "start": 29,
+        "end": 33,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "please take me to sfax this friday at 15h",
+    "spans": [
+      {
+        "start": 18,
+        "end": 22,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 23,
+        "end": 34,
+        "label": "DATE"
+      },
+      {
+        "start": 38,
+        "end": 41,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "I need a ride from home to the hospital tomorrow morning",
+    "spans": [
+      {
+        "start": 19,
+        "end": 23,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 31,
+        "end": 39,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 40,
+        "end": 48,
+        "label": "DATE"
+      },
+      {
+        "start": 49,
+        "end": 56,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "taxi from la marsa to carthage on sunday evening",
+    "spans": [
+      {
+        "start": 10,
+        "end": 18,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 22,
+        "end": 30,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 34,
+        "end": 40,
+        "label": "DATE"
+      },
+      {
+        "start": 41,
+        "end": 48,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "I want a cab to djerba next thursday",
+    "spans": [
+      {
+        "start": 16,
+        "end": 22,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 23,
+        "end": 36,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "take me to the train station this saturday at 6h",
+    "spans": [
+      {
+        "start": 15,
+        "end": 28,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 29,
+        "end": 42,
+        "label": "DATE"
+      },
+      {
+        "start": 46,
+        "end": 48,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "ride from office to airport tomorrow at 9h",
+    "spans": [
+      {
+        "start": 10,
+        "end": 16,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 20,
+        "end": 27,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 28,
+        "end": 36,
+        "label": "DATE"
+      },
+      {
+        "start": 40,
+        "end": 42,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "I need to go to bizerte now",
+    "spans": [
+      {
+        "start": 16,
+        "end": 23,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 24,
+        "end": 27,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "drop me at the city center from hotel on monday",
+    "spans": [
+      {
+        "start": 15,
+        "end": 26,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 32,
+        "end": 37,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 41,
+        "end": 47,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "take me to kairouan tomorrow at 13h",
+    "spans": [
+      {
+        "start": 11,
+        "end": 19,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 20,
+        "end": 28,
+        "label": "DATE"
+      },
+      {
+        "start": 32,
+        "end": 35,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "can you pick me up from the airport and take me to tunis tonight",
+    "spans": [
+      {
+        "start": 28,
+        "end": 35,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 51,
+        "end": 56,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 57,
+        "end": 64,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "I want to go to the hotel now from my office",
+    "spans": [
+      {
+        "start": 20,
+        "end": 25,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 26,
+        "end": 29,
+        "label": "DATE"
+      },
+      {
+        "start": 38,
+        "end": 44,
+        "label": "DEPARTURE"
+      }
+    ]
+  },
+  {
+    "text": "ride to sousse saturday night",
+    "spans": [
+      {
+        "start": 8,
+        "end": 14,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 15,
+        "end": 23,
+        "label": "DATE"
+      },
+      {
+        "start": 24,
+        "end": 29,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "من هنا إلى سوسة غدا في المساء",
+    "spans": [
+      {
+        "start": 3,
+        "end": 6,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 11,
+        "end": 15,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 16,
+        "end": 19,
+        "label": "DATE"
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "أريد سيارة إلى تونس الآن",
+    "spans": [
+      {
+        "start": 15,
+        "end": 19,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 20,
+        "end": 24,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "من المطار إلى صفاقس يوم الجمعة صباحا",
+    "spans": [
+      {
+        "start": 3,
+        "end": 9,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 14,
+        "end": 19,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "label": "DATE"
+      },
+      {
+        "start": 31,
+        "end": 36,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "احتاج تاكسي من المكتب إلى المطار غدا",
+    "spans": [
+      {
+        "start": 15,
+        "end": 21,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 33,
+        "end": 36,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "أريد الذهاب إلى الحمامات غدا صباحا",
+    "spans": [
+      {
+        "start": 16,
+        "end": 24,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 25,
+        "end": 28,
+        "label": "DATE"
+      },
+      {
+        "start": 29,
+        "end": 34,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "من منزلي إلى المطار يوم الأحد",
+    "spans": [
+      {
+        "start": 3,
+        "end": 8,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 13,
+        "end": 19,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 24,
+        "end": 29,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "أريد تاكسي من سوسة إلى صفاقس يوم الاثنين",
+    "spans": [
+      {
+        "start": 14,
+        "end": 18,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 23,
+        "end": 28,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 33,
+        "end": 40,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "خذني من المكتب إلى المحطة الآن",
+    "spans": [
+      {
+        "start": 8,
+        "end": 14,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 26,
+        "end": 30,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "أريد الذهاب إلى تونس مساء الجمعة",
+    "spans": [
+      {
+        "start": 16,
+        "end": 20,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 21,
+        "end": 32,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "من الفندق إلى وسط المدينة غدا",
+    "spans": [
+      {
+        "start": 3,
+        "end": 9,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 14,
+        "end": 25,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 26,
+        "end": 29,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "تاكسي من البيت إلى المطار يوم الخميس صباحا",
+    "spans": [
+      {
+        "start": 9,
+        "end": 14,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 30,
+        "end": 36,
+        "label": "DATE"
+      },
+      {
+        "start": 37,
+        "end": 42,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "أريد تاكسي إلى نابل الآن",
+    "spans": [
+      {
+        "start": 15,
+        "end": 19,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 20,
+        "end": 24,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "خذني من محطة القطار إلى الحمامات يوم السبت",
+    "spans": [
+      {
+        "start": 8,
+        "end": 19,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 24,
+        "end": 32,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 37,
+        "end": 42,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "أريد الذهاب من المطار إلى سوسة مساء",
+    "spans": [
+      {
+        "start": 15,
+        "end": 21,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 26,
+        "end": 30,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 31,
+        "end": 35,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "تاكسي إلى بنزرت يوم الأربعاء في المساء",
+    "spans": [
+      {
+        "start": 10,
+        "end": 15,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 20,
+        "end": 28,
+        "label": "DATE"
+      },
+      {
+        "start": 32,
+        "end": 38,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "nheb nemchi nabeul el-khamis ba3d dhuhr",
+    "spans": [
+      {
+        "start": 12,
+        "end": 18,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 19,
+        "end": 28,
+        "label": "DATE"
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "conduire de mon bureau a l'aéroport demain 20h",
+    "spans": [
+      {
+        "start": 12,
+        "end": 22,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 36,
+        "end": 42,
+        "label": "DATE"
+      },
+      {
+        "start": 43,
+        "end": 46,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "أريد تاكسي إلى حمام الأنف غدا",
+    "spans": [
+      {
+        "start": 15,
+        "end": 25,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 26,
+        "end": 29,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "taxi de mon domicile vers la gare aujourd'hui a 18h",
+    "spans": [
+      {
+        "start": 8,
+        "end": 20,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 26,
+        "end": 33,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 34,
+        "end": 45,
+        "label": "DATE"
+      },
+      {
+        "start": 48,
+        "end": 51,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "conduire de mon domicile a kairouan lundi 14h",
+    "spans": [
+      {
+        "start": 12,
+        "end": 24,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 27,
+        "end": 35,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 36,
+        "end": 41,
+        "label": "DATE"
+      },
+      {
+        "start": 42,
+        "end": 45,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "take me to sfax tonight at 8h",
+    "spans": [
+      {
+        "start": 11,
+        "end": 15,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 16,
+        "end": 23,
+        "label": "DATE"
+      },
+      {
+        "start": 27,
+        "end": 29,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "book a ride to monastir day after tomorrow at evening",
+    "spans": [
+      {
+        "start": 15,
+        "end": 23,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 24,
+        "end": 42,
+        "label": "DATE"
+      },
+      {
+        "start": 46,
+        "end": 53,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "wein taxi ghodwa 8h",
+    "spans": [
+      {
+        "start": 10,
+        "end": 16,
+        "label": "DATE"
+      },
+      {
+        "start": 17,
+        "end": 19,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "can you drive me from the hotel to hammamet tuesday",
+    "spans": [
+      {
+        "start": 22,
+        "end": 31,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 35,
+        "end": 43,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 44,
+        "end": 51,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "wein taxi ghodwa 18h",
+    "spans": [
+      {
+        "start": 10,
+        "end": 16,
+        "label": "DATE"
+      },
+      {
+        "start": 17,
+        "end": 20,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "please take me to the station this day after tomorrow at 22h",
+    "spans": [
+      {
+        "start": 18,
+        "end": 29,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 35,
+        "end": 53,
+        "label": "DATE"
+      },
+      {
+        "start": 57,
+        "end": 60,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "conduire de mon bureau a hammamet dimanche après-midi",
+    "spans": [
+      {
+        "start": 12,
+        "end": 22,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 25,
+        "end": 33,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 34,
+        "end": 42,
+        "label": "DATE"
+      },
+      {
+        "start": 43,
+        "end": 53,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "I need a taxi to monastir tomorrow",
+    "spans": [
+      {
+        "start": 17,
+        "end": 25,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 26,
+        "end": 34,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "خذني إلى جربة الخميس في الظهر",
+    "spans": [
+      {
+        "start": 9,
+        "end": 13,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 14,
+        "end": 20,
+        "label": "DATE"
+      },
+      {
+        "start": 24,
+        "end": 29,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "I want to go to monastir sunday at night",
+    "spans": [
+      {
+        "start": 16,
+        "end": 24,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "label": "DATE"
+      },
+      {
+        "start": 35,
+        "end": 40,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "khodni lel sfax el-talata 8h30",
+    "spans": [
+      {
+        "start": 11,
+        "end": 15,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 16,
+        "end": 25,
+        "label": "DATE"
+      },
+      {
+        "start": 26,
+        "end": 30,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "aller a djerba ce soir",
+    "spans": [
+      {
+        "start": 8,
+        "end": 14,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 15,
+        "end": 22,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "please take me to the airport this monday at 7h",
+    "spans": [
+      {
+        "start": 18,
+        "end": 29,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 35,
+        "end": 41,
+        "label": "DATE"
+      },
+      {
+        "start": 45,
+        "end": 47,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "take me to monastir today at 13h",
+    "spans": [
+      {
+        "start": 11,
+        "end": 19,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 20,
+        "end": 25,
+        "label": "DATE"
+      },
+      {
+        "start": 29,
+        "end": 32,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "drop me at sousse from the hotel monday",
+    "spans": [
+      {
+        "start": 11,
+        "end": 17,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 23,
+        "end": 32,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 33,
+        "end": 39,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "ride from la marsa to kairouan sunday at 14h",
+    "spans": [
+      {
+        "start": 10,
+        "end": 18,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 22,
+        "end": 30,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 31,
+        "end": 37,
+        "label": "DATE"
+      },
+      {
+        "start": 41,
+        "end": 44,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "taxi depuis mon hôtel jusqu a monastir mercredi",
+    "spans": [
+      {
+        "start": 12,
+        "end": 21,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 30,
+        "end": 38,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 39,
+        "end": 47,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "I need a ride from the station to kairouan thursday at 9h",
+    "spans": [
+      {
+        "start": 19,
+        "end": 30,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 34,
+        "end": 42,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 43,
+        "end": 51,
+        "label": "DATE"
+      },
+      {
+        "start": 55,
+        "end": 57,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "ride from office to the airport tuesday at evening",
+    "spans": [
+      {
+        "start": 10,
+        "end": 16,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 20,
+        "end": 31,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 32,
+        "end": 39,
+        "label": "DATE"
+      },
+      {
+        "start": 43,
+        "end": 50,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "bch nemchi sfax el-jemaa 10h",
+    "spans": [
+      {
+        "start": 11,
+        "end": 15,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 16,
+        "end": 24,
+        "label": "DATE"
+      },
+      {
+        "start": 25,
+        "end": 28,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "احتاج تاكسي من المنزل إلى القيروان الأحد",
+    "spans": [
+      {
+        "start": 15,
+        "end": 21,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 26,
+        "end": 34,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 35,
+        "end": 40,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "احتاج تاكسي من الفندق إلى المطار اليوم",
+    "spans": [
+      {
+        "start": 15,
+        "end": 21,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 33,
+        "end": 38,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "nemchi matar el-ahad fel 10h",
+    "spans": [
+      {
+        "start": 7,
+        "end": 12,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 13,
+        "end": 20,
+        "label": "DATE"
+      },
+      {
+        "start": 25,
+        "end": 28,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "I need a taxi to nabeul tonight",
+    "spans": [
+      {
+        "start": 17,
+        "end": 23,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 24,
+        "end": 31,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "taxi de mon bureau a nabeul mercredi",
+    "spans": [
+      {
+        "start": 8,
+        "end": 18,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 28,
+        "end": 36,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "je pars de mon bureau vers nabeul dimanche a 18h",
+    "spans": [
+      {
+        "start": 11,
+        "end": 21,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 27,
+        "end": 33,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 34,
+        "end": 42,
+        "label": "DATE"
+      },
+      {
+        "start": 45,
+        "end": 48,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "aller a bizerte vendredi",
+    "spans": [
+      {
+        "start": 8,
+        "end": 15,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 16,
+        "end": 24,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "khodni lel bizerte tawwa sbeh",
+    "spans": [
+      {
+        "start": 11,
+        "end": 18,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 19,
+        "end": 24,
+        "label": "DATE"
+      },
+      {
+        "start": 25,
+        "end": 29,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "khodni men ennasr lel nabeul el-khamis",
+    "spans": [
+      {
+        "start": 11,
+        "end": 17,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 22,
+        "end": 28,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 29,
+        "end": 38,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "nemchi sousse min hotel ghodwa",
+    "spans": [
+      {
+        "start": 7,
+        "end": 13,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 18,
+        "end": 23,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "أريد تاكسي إلى المطار الجمعة",
+    "spans": [
+      {
+        "start": 15,
+        "end": 21,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 22,
+        "end": 28,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "besoin d un taxi de la marsa pour l'aéroport vendredi",
+    "spans": [
+      {
+        "start": 20,
+        "end": 28,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 34,
+        "end": 44,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 45,
+        "end": 53,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "get me a taxi to the station tonight at afternoon",
+    "spans": [
+      {
+        "start": 17,
+        "end": 28,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 29,
+        "end": 36,
+        "label": "DATE"
+      },
+      {
+        "start": 40,
+        "end": 49,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "conduire de la gare a kairouan dimanche 8h30",
+    "spans": [
+      {
+        "start": 12,
+        "end": 19,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 22,
+        "end": 30,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 31,
+        "end": 39,
+        "label": "DATE"
+      },
+      {
+        "start": 40,
+        "end": 44,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "I need a cab from the station to djerba tomorrow",
+    "spans": [
+      {
+        "start": 18,
+        "end": 29,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 33,
+        "end": 39,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 40,
+        "end": 48,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "taxi de mon bureau vers bizerte aujourd'hui a 20h",
+    "spans": [
+      {
+        "start": 8,
+        "end": 18,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 24,
+        "end": 31,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 32,
+        "end": 43,
+        "label": "DATE"
+      },
+      {
+        "start": 46,
+        "end": 49,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "emmene moi a monastir aujourd'hui a soir",
+    "spans": [
+      {
+        "start": 13,
+        "end": 21,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 22,
+        "end": 33,
+        "label": "DATE"
+      },
+      {
+        "start": 36,
+        "end": 40,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "nemchi hammamet min beit el-itnin",
+    "spans": [
+      {
+        "start": 7,
+        "end": 15,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 20,
+        "end": 24,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 25,
+        "end": 33,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "3aybni taxi men dar lel nabeul tawwa ba3d dhuhr",
+    "spans": [
+      {
+        "start": 16,
+        "end": 19,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 31,
+        "end": 36,
+        "label": "DATE"
+      },
+      {
+        "start": 37,
+        "end": 47,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "conduire de mon domicile a la gare mardi après-midi",
+    "spans": [
+      {
+        "start": 12,
+        "end": 24,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 27,
+        "end": 34,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 35,
+        "end": 40,
+        "label": "DATE"
+      },
+      {
+        "start": 41,
+        "end": 51,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "أريد الذهاب إلى المنستير غدا المساء",
+    "spans": [
+      {
+        "start": 16,
+        "end": 24,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 25,
+        "end": 28,
+        "label": "DATE"
+      },
+      {
+        "start": 29,
+        "end": 35,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "خذني إلى القيروان الأحد في 14h",
+    "spans": [
+      {
+        "start": 9,
+        "end": 17,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 18,
+        "end": 23,
+        "label": "DATE"
+      },
+      {
+        "start": 27,
+        "end": 30,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "nemchi sousse lyoum fel 9h",
+    "spans": [
+      {
+        "start": 7,
+        "end": 13,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 14,
+        "end": 19,
+        "label": "DATE"
+      },
+      {
+        "start": 24,
+        "end": 26,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "I need a taxi to monastir monday",
+    "spans": [
+      {
+        "start": 17,
+        "end": 25,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "je pars de la marsa vers sfax ce soir a midi",
+    "spans": [
+      {
+        "start": 11,
+        "end": 19,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 25,
+        "end": 29,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 30,
+        "end": 37,
+        "label": "DATE"
+      },
+      {
+        "start": 40,
+        "end": 44,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "I need a cab from office to sousse tuesday",
+    "spans": [
+      {
+        "start": 18,
+        "end": 24,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 28,
+        "end": 34,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 35,
+        "end": 42,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "nheb nemchi matar lyoum 3achiya",
+    "spans": [
+      {
+        "start": 12,
+        "end": 17,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 18,
+        "end": 23,
+        "label": "DATE"
+      },
+      {
+        "start": 24,
+        "end": 31,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "aller a kairouan mardi",
+    "spans": [
+      {
+        "start": 8,
+        "end": 16,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 17,
+        "end": 22,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "من المرسى إلى حمام الأنف الجمعة 9h",
+    "spans": [
+      {
+        "start": 3,
+        "end": 9,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 14,
+        "end": 24,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "label": "DATE"
+      },
+      {
+        "start": 32,
+        "end": 34,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "wein taxi el-ahad 10h",
+    "spans": [
+      {
+        "start": 10,
+        "end": 17,
+        "label": "DATE"
+      },
+      {
+        "start": 18,
+        "end": 21,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "خذني إلى القيروان الثلاثاء في 14h",
+    "spans": [
+      {
+        "start": 9,
+        "end": 17,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 18,
+        "end": 26,
+        "label": "DATE"
+      },
+      {
+        "start": 30,
+        "end": 33,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "taxi de la gare vers monastir aujourd'hui a 20h",
+    "spans": [
+      {
+        "start": 8,
+        "end": 15,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 21,
+        "end": 29,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 30,
+        "end": 41,
+        "label": "DATE"
+      },
+      {
+        "start": 44,
+        "end": 47,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "taxi men bureau lel hammamet lyoum",
+    "spans": [
+      {
+        "start": 9,
+        "end": 15,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 20,
+        "end": 28,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 29,
+        "end": 34,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "احتاج تاكسي من المحطة إلى صفاقس اليوم",
+    "spans": [
+      {
+        "start": 15,
+        "end": 21,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 26,
+        "end": 31,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 32,
+        "end": 37,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "wein taxi lel sousse el-arba3 3achiya",
+    "spans": [
+      {
+        "start": 14,
+        "end": 20,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 21,
+        "end": 29,
+        "label": "DATE"
+      },
+      {
+        "start": 30,
+        "end": 37,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "reserver un taxi jeudi après-midi pour sousse",
+    "spans": [
+      {
+        "start": 17,
+        "end": 22,
+        "label": "DATE"
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "TIME"
+      },
+      {
+        "start": 39,
+        "end": 45,
+        "label": "DESTINATION"
+      }
+    ]
+  },
+  {
+    "text": "khodni lel sousse ba3d ghodwa 7h30",
+    "spans": [
+      {
+        "start": 11,
+        "end": 17,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 18,
+        "end": 29,
+        "label": "DATE"
+      },
+      {
+        "start": 30,
+        "end": 34,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "take me from office to bizerte monday",
+    "spans": [
+      {
+        "start": 13,
+        "end": 19,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 23,
+        "end": 30,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 31,
+        "end": 37,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "drop me at nabeul from office tuesday",
+    "spans": [
+      {
+        "start": 11,
+        "end": 17,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 30,
+        "end": 37,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "I need a taxi to hammamet tuesday",
+    "spans": [
+      {
+        "start": 17,
+        "end": 25,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 26,
+        "end": 33,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "bch nemchi matar el-khamis 18h",
+    "spans": [
+      {
+        "start": 11,
+        "end": 16,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 17,
+        "end": 26,
+        "label": "DATE"
+      },
+      {
+        "start": 27,
+        "end": 30,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "book a ride to bizerte tomorrow at afternoon",
+    "spans": [
+      {
+        "start": 15,
+        "end": 22,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 23,
+        "end": 31,
+        "label": "DATE"
+      },
+      {
+        "start": 35,
+        "end": 44,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "take me from office to djerba wednesday",
+    "spans": [
+      {
+        "start": 13,
+        "end": 19,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 30,
+        "end": 39,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "can you drive me from the station to hammamet sunday",
+    "spans": [
+      {
+        "start": 22,
+        "end": 33,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 37,
+        "end": 45,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 46,
+        "end": 52,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "please take me to sousse this friday at night",
+    "spans": [
+      {
+        "start": 18,
+        "end": 24,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 30,
+        "end": 36,
+        "label": "DATE"
+      },
+      {
+        "start": 40,
+        "end": 45,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "bch nemchi matar el-jemaa leyl",
+    "spans": [
+      {
+        "start": 11,
+        "end": 16,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 17,
+        "end": 25,
+        "label": "DATE"
+      },
+      {
+        "start": 26,
+        "end": 30,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "can you drive me from office to bizerte monday",
+    "spans": [
+      {
+        "start": 22,
+        "end": 28,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 32,
+        "end": 39,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 40,
+        "end": 46,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "get me a taxi to djerba saturday at 15h",
+    "spans": [
+      {
+        "start": 17,
+        "end": 23,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 24,
+        "end": 32,
+        "label": "DATE"
+      },
+      {
+        "start": 36,
+        "end": 39,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "bch nemchi kairouan el-ahad sbeh",
+    "spans": [
+      {
+        "start": 11,
+        "end": 19,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 20,
+        "end": 27,
+        "label": "DATE"
+      },
+      {
+        "start": 28,
+        "end": 32,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "khodni men ennasr lel sfax el-ahad",
+    "spans": [
+      {
+        "start": 11,
+        "end": 17,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 22,
+        "end": 26,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 27,
+        "end": 34,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "conduire de la marsa a l'aéroport ce soir 18h",
+    "spans": [
+      {
+        "start": 12,
+        "end": 20,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 23,
+        "end": 33,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 34,
+        "end": 41,
+        "label": "DATE"
+      },
+      {
+        "start": 42,
+        "end": 45,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "bch nemchi sousse el-jemaa 18h",
+    "spans": [
+      {
+        "start": 11,
+        "end": 17,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 18,
+        "end": 26,
+        "label": "DATE"
+      },
+      {
+        "start": 27,
+        "end": 30,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "khodni men hotel lel matar el-jemaa",
+    "spans": [
+      {
+        "start": 11,
+        "end": 16,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 21,
+        "end": 26,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 27,
+        "end": 35,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "من المنزل إلى نابل الخميس الصباح",
+    "spans": [
+      {
+        "start": 3,
+        "end": 9,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 14,
+        "end": 18,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "label": "DATE"
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "ride from office to sousse day after tomorrow at 13h",
+    "spans": [
+      {
+        "start": 10,
+        "end": 16,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 20,
+        "end": 26,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 27,
+        "end": 45,
+        "label": "DATE"
+      },
+      {
+        "start": 49,
+        "end": 52,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "احتاج تاكسي من المكتب إلى المنستير الجمعة",
+    "spans": [
+      {
+        "start": 15,
+        "end": 21,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 26,
+        "end": 34,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 35,
+        "end": 41,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "reserver un taxi vendredi 14h30 pour hammamet",
+    "spans": [
+      {
+        "start": 17,
+        "end": 25,
+        "label": "DATE"
+      },
+      {
+        "start": 26,
+        "end": 31,
+        "label": "TIME"
+      },
+      {
+        "start": 37,
+        "end": 45,
+        "label": "DESTINATION"
+      }
+    ]
+  },
+  {
+    "text": "drop me at nabeul from office friday",
+    "spans": [
+      {
+        "start": 11,
+        "end": 17,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 30,
+        "end": 36,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "wein taxi lyoum 12h",
+    "spans": [
+      {
+        "start": 10,
+        "end": 15,
+        "label": "DATE"
+      },
+      {
+        "start": 16,
+        "end": 19,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "من المكتب إلى جربة الخميس صباحا",
+    "spans": [
+      {
+        "start": 3,
+        "end": 9,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 14,
+        "end": 18,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 19,
+        "end": 25,
+        "label": "DATE"
+      },
+      {
+        "start": 26,
+        "end": 31,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "taxi de mon bureau vers monastir ce soir a 8h",
+    "spans": [
+      {
+        "start": 8,
+        "end": 18,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 24,
+        "end": 32,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 33,
+        "end": 40,
+        "label": "DATE"
+      },
+      {
+        "start": 43,
+        "end": 45,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "I need a taxi to nabeul day after tomorrow",
+    "spans": [
+      {
+        "start": 17,
+        "end": 23,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 24,
+        "end": 42,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "تاكسي إلى المطار الخميس في الصباح",
+    "spans": [
+      {
+        "start": 10,
+        "end": 16,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 17,
+        "end": 23,
+        "label": "DATE"
+      },
+      {
+        "start": 27,
+        "end": 33,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "taxi men dar lel gare el-ahad sbeh",
+    "spans": [
+      {
+        "start": 9,
+        "end": 12,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 17,
+        "end": 21,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 22,
+        "end": 29,
+        "label": "DATE"
+      },
+      {
+        "start": 30,
+        "end": 34,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "khodni lel kairouan el-itnin 8h30",
+    "spans": [
+      {
+        "start": 11,
+        "end": 19,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 20,
+        "end": 28,
+        "label": "DATE"
+      },
+      {
+        "start": 29,
+        "end": 33,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "drop me at the airport from the station tomorrow",
+    "spans": [
+      {
+        "start": 11,
+        "end": 22,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 28,
+        "end": 39,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 40,
+        "end": 48,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "احتاج تاكسي من المكتب إلى نابل اليوم",
+    "spans": [
+      {
+        "start": 15,
+        "end": 21,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 26,
+        "end": 30,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 31,
+        "end": 36,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "أريد تاكسي إلى المطار الثلاثاء",
+    "spans": [
+      {
+        "start": 15,
+        "end": 21,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 22,
+        "end": 30,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "je dois arriver a kairouan demain a 8h30",
+    "spans": [
+      {
+        "start": 18,
+        "end": 26,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 27,
+        "end": 33,
+        "label": "DATE"
+      },
+      {
+        "start": 36,
+        "end": 40,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "can you drive me from the hotel to sousse saturday",
+    "spans": [
+      {
+        "start": 22,
+        "end": 31,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 35,
+        "end": 41,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 42,
+        "end": 50,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "please take me to kairouan this day after tomorrow at 9h",
+    "spans": [
+      {
+        "start": 18,
+        "end": 26,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 32,
+        "end": 50,
+        "label": "DATE"
+      },
+      {
+        "start": 54,
+        "end": 56,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "get me a taxi to sfax monday at 9h",
+    "spans": [
+      {
+        "start": 17,
+        "end": 21,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 22,
+        "end": 28,
+        "label": "DATE"
+      },
+      {
+        "start": 32,
+        "end": 34,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "تاكسي إلى صفاقس السبت في 9h",
+    "spans": [
+      {
+        "start": 10,
+        "end": 15,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 16,
+        "end": 21,
+        "label": "DATE"
+      },
+      {
+        "start": 25,
+        "end": 27,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "taxi men bureau lel monastir ba3d ghodwa 10h",
+    "spans": [
+      {
+        "start": 9,
+        "end": 15,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 20,
+        "end": 28,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 29,
+        "end": 40,
+        "label": "DATE"
+      },
+      {
+        "start": 41,
+        "end": 44,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "I need a cab from la marsa to djerba sunday",
+    "spans": [
+      {
+        "start": 18,
+        "end": 26,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 30,
+        "end": 36,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 37,
+        "end": 43,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "je pars de la marsa vers sfax dimanche a soir",
+    "spans": [
+      {
+        "start": 11,
+        "end": 19,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 25,
+        "end": 29,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 30,
+        "end": 38,
+        "label": "DATE"
+      },
+      {
+        "start": 41,
+        "end": 45,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "get me a taxi to the station day after tomorrow at evening",
+    "spans": [
+      {
+        "start": 17,
+        "end": 28,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 29,
+        "end": 47,
+        "label": "DATE"
+      },
+      {
+        "start": 51,
+        "end": 58,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "besoin d un taxi de la gare pour monastir lundi",
+    "spans": [
+      {
+        "start": 20,
+        "end": 27,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 33,
+        "end": 41,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 42,
+        "end": 47,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "je veux aller a hammamet lundi 14h",
+    "spans": [
+      {
+        "start": 16,
+        "end": 24,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 25,
+        "end": 30,
+        "label": "DATE"
+      },
+      {
+        "start": 31,
+        "end": 34,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "nheb nemchi kairouan tawwa",
+    "spans": [
+      {
+        "start": 12,
+        "end": 20,
+        "label": "DESTINATION"
+      }
+    ]
+  },
+  {
+    "text": "conduire de la marsa a djerba ce soir après-midi",
+    "spans": [
+      {
+        "start": 12,
+        "end": 20,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 30,
+        "end": 37,
+        "label": "DATE"
+      },
+      {
+        "start": 38,
+        "end": 48,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "besoin d un taxi de mon bureau pour sousse ce soir",
+    "spans": [
+      {
+        "start": 20,
+        "end": 30,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 36,
+        "end": 42,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 43,
+        "end": 50,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "aller a l'aéroport mardi",
+    "spans": [
+      {
+        "start": 8,
+        "end": 18,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 19,
+        "end": 24,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "3aybni taxi men dar lel sousse tawwa dhuhr",
+    "spans": [
+      {
+        "start": 16,
+        "end": 19,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 31,
+        "end": 36,
+        "label": "DATE"
+      },
+      {
+        "start": 37,
+        "end": 42,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "تاكسي إلى المطار الثلاثاء في 20h",
+    "spans": [
+      {
+        "start": 10,
+        "end": 16,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 17,
+        "end": 25,
+        "label": "DATE"
+      },
+      {
+        "start": 29,
+        "end": 32,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "I need a cab from the station to the airport tonight",
+    "spans": [
+      {
+        "start": 18,
+        "end": 29,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 33,
+        "end": 44,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 45,
+        "end": 52,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "من المرسى إلى جربة السبت الليل",
+    "spans": [
+      {
+        "start": 3,
+        "end": 9,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 14,
+        "end": 18,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 19,
+        "end": 24,
+        "label": "DATE"
+      },
+      {
+        "start": 25,
+        "end": 30,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "get me a taxi to djerba sunday at afternoon",
+    "spans": [
+      {
+        "start": 17,
+        "end": 23,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "label": "DATE"
+      },
+      {
+        "start": 34,
+        "end": 43,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "I need a cab from home to nabeul monday",
+    "spans": [
+      {
+        "start": 18,
+        "end": 22,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 33,
+        "end": 39,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "I want to go to bizerte wednesday at evening",
+    "spans": [
+      {
+        "start": 16,
+        "end": 23,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 24,
+        "end": 33,
+        "label": "DATE"
+      },
+      {
+        "start": 37,
+        "end": 44,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "aller a monastir ce soir",
+    "spans": [
+      {
+        "start": 8,
+        "end": 16,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 17,
+        "end": 24,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "conduire de mon hôtel a sousse ce soir 9h",
+    "spans": [
+      {
+        "start": 12,
+        "end": 21,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 31,
+        "end": 38,
+        "label": "DATE"
+      },
+      {
+        "start": 39,
+        "end": 41,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "get me a taxi to djerba tonight at morning",
+    "spans": [
+      {
+        "start": 17,
+        "end": 23,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 24,
+        "end": 31,
+        "label": "DATE"
+      },
+      {
+        "start": 35,
+        "end": 42,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "reserver un taxi jeudi 14h30 pour kairouan",
+    "spans": [
+      {
+        "start": 17,
+        "end": 22,
+        "label": "DATE"
+      },
+      {
+        "start": 23,
+        "end": 28,
+        "label": "TIME"
+      },
+      {
+        "start": 34,
+        "end": 42,
+        "label": "DESTINATION"
+      }
+    ]
+  },
+  {
+    "text": "khodni lel kairouan tawwa sbeh",
+    "spans": [
+      {
+        "start": 11,
+        "end": 19,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 20,
+        "end": 25,
+        "label": "DATE"
+      },
+      {
+        "start": 26,
+        "end": 30,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "take me from la marsa to kairouan wednesday",
+    "spans": [
+      {
+        "start": 13,
+        "end": 21,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 25,
+        "end": 33,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 34,
+        "end": 43,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "taxi de mon hôtel a nabeul ce soir",
+    "spans": [
+      {
+        "start": 8,
+        "end": 17,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 20,
+        "end": 26,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 27,
+        "end": 34,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "أريد تاكسي إلى القيروان الخميس",
+    "spans": [
+      {
+        "start": 15,
+        "end": 23,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "تاكسي إلى صفاقس الأربعاء في الظهر",
+    "spans": [
+      {
+        "start": 10,
+        "end": 15,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 16,
+        "end": 24,
+        "label": "DATE"
+      },
+      {
+        "start": 28,
+        "end": 33,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "wein taxi el-arba3 20h",
+    "spans": [
+      {
+        "start": 10,
+        "end": 18,
+        "label": "DATE"
+      },
+      {
+        "start": 19,
+        "end": 22,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "bch nemchi kairouan el-jemaa 12h",
+    "spans": [
+      {
+        "start": 11,
+        "end": 19,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 20,
+        "end": 28,
+        "label": "DATE"
+      },
+      {
+        "start": 29,
+        "end": 32,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "من المنزل إلى نابل الأحد 8h",
+    "spans": [
+      {
+        "start": 3,
+        "end": 9,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 14,
+        "end": 18,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 19,
+        "end": 24,
+        "label": "DATE"
+      },
+      {
+        "start": 25,
+        "end": 27,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "taxi de la gare a bizerte ce soir",
+    "spans": [
+      {
+        "start": 8,
+        "end": 15,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 18,
+        "end": 25,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 26,
+        "end": 33,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "drop me at sousse from the hotel tuesday",
+    "spans": [
+      {
+        "start": 11,
+        "end": 17,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 23,
+        "end": 32,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 33,
+        "end": 40,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "taxi men hotel lel hammamet el-itnin",
+    "spans": [
+      {
+        "start": 9,
+        "end": 14,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 19,
+        "end": 27,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 28,
+        "end": 36,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "besoin d un taxi de mon bureau pour hammamet aujourd'hui",
+    "spans": [
+      {
+        "start": 20,
+        "end": 30,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 36,
+        "end": 44,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 45,
+        "end": 56,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "taxi de mon bureau vers la gare vendredi a après-midi",
+    "spans": [
+      {
+        "start": 8,
+        "end": 18,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 24,
+        "end": 31,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 32,
+        "end": 40,
+        "label": "DATE"
+      },
+      {
+        "start": 43,
+        "end": 53,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "taxi de mon bureau a la gare lundi",
+    "spans": [
+      {
+        "start": 8,
+        "end": 18,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 21,
+        "end": 28,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 29,
+        "end": 34,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "تاكسي إلى نابل الخميس في الظهر",
+    "spans": [
+      {
+        "start": 10,
+        "end": 14,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 15,
+        "end": 21,
+        "label": "DATE"
+      },
+      {
+        "start": 25,
+        "end": 30,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "wein taxi lel nabeul ghodwa 20h",
+    "spans": [
+      {
+        "start": 14,
+        "end": 20,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 21,
+        "end": 27,
+        "label": "DATE"
+      },
+      {
+        "start": 28,
+        "end": 31,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "taxi men hotel lel kairouan ba3d ghodwa 8h30",
+    "spans": [
+      {
+        "start": 9,
+        "end": 14,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 19,
+        "end": 27,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 28,
+        "end": 39,
+        "label": "DATE"
+      },
+      {
+        "start": 40,
+        "end": 44,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "taxi vers la gare dimanche a après-midi",
+    "spans": [
+      {
+        "start": 10,
+        "end": 17,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 18,
+        "end": 26,
+        "label": "DATE"
+      },
+      {
+        "start": 29,
+        "end": 39,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "taxi men ennasr lel nabeul el-arba3",
+    "spans": [
+      {
+        "start": 9,
+        "end": 15,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 20,
+        "end": 26,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 27,
+        "end": 35,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "khodni lel hammamet el-itnin 18h",
+    "spans": [
+      {
+        "start": 11,
+        "end": 19,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 20,
+        "end": 28,
+        "label": "DATE"
+      },
+      {
+        "start": 29,
+        "end": 32,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "تاكسي إلى بنزرت غدا في 18h",
+    "spans": [
+      {
+        "start": 10,
+        "end": 15,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 16,
+        "end": 19,
+        "label": "DATE"
+      },
+      {
+        "start": 23,
+        "end": 26,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "take me to kairouan tuesday at evening",
+    "spans": [
+      {
+        "start": 11,
+        "end": 19,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 20,
+        "end": 27,
+        "label": "DATE"
+      },
+      {
+        "start": 31,
+        "end": 38,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "خذني إلى جربة الجمعة في 9h",
+    "spans": [
+      {
+        "start": 9,
+        "end": 13,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 14,
+        "end": 20,
+        "label": "DATE"
+      },
+      {
+        "start": 24,
+        "end": 26,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "conduire de mon domicile a nabeul jeudi 11h",
+    "spans": [
+      {
+        "start": 12,
+        "end": 24,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 27,
+        "end": 33,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 34,
+        "end": 39,
+        "label": "DATE"
+      },
+      {
+        "start": 40,
+        "end": 43,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "أريد الذهاب إلى القيروان السبت 8h",
+    "spans": [
+      {
+        "start": 16,
+        "end": 24,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 25,
+        "end": 30,
+        "label": "DATE"
+      },
+      {
+        "start": 31,
+        "end": 33,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "taxi vers nabeul mardi a après-midi",
+    "spans": [
+      {
+        "start": 10,
+        "end": 16,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 17,
+        "end": 22,
+        "label": "DATE"
+      },
+      {
+        "start": 25,
+        "end": 35,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "احتاج تاكسي من المحطة إلى القيروان الخميس",
+    "spans": [
+      {
+        "start": 15,
+        "end": 21,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 26,
+        "end": 34,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 35,
+        "end": 41,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "nheb nemchi bizerte tawwa",
+    "spans": [
+      {
+        "start": 12,
+        "end": 19,
+        "label": "DESTINATION"
+      }
+    ]
+  },
+  {
+    "text": "taxi de mon hôtel a bizerte samedi",
+    "spans": [
+      {
+        "start": 8,
+        "end": 17,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 20,
+        "end": 27,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 28,
+        "end": 34,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "take me from the station to nabeul wednesday",
+    "spans": [
+      {
+        "start": 13,
+        "end": 24,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 28,
+        "end": 34,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 35,
+        "end": 44,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "3aybni taxi men dar lel sousse el-khamis 8h30",
+    "spans": [
+      {
+        "start": 16,
+        "end": 19,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 24,
+        "end": 30,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 31,
+        "end": 40,
+        "label": "DATE"
+      },
+      {
+        "start": 41,
+        "end": 45,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "أريد الذهاب إلى المطار الاثنين 14h",
+    "spans": [
+      {
+        "start": 16,
+        "end": 22,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 23,
+        "end": 30,
+        "label": "DATE"
+      },
+      {
+        "start": 31,
+        "end": 34,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "أريد الذهاب إلى حمام الأنف غدا صباحا",
+    "spans": [
+      {
+        "start": 16,
+        "end": 26,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 27,
+        "end": 30,
+        "label": "DATE"
+      },
+      {
+        "start": 31,
+        "end": 36,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "reserver un taxi samedi 8h30 pour monastir",
+    "spans": [
+      {
+        "start": 17,
+        "end": 23,
+        "label": "DATE"
+      },
+      {
+        "start": 24,
+        "end": 28,
+        "label": "TIME"
+      },
+      {
+        "start": 34,
+        "end": 42,
+        "label": "DESTINATION"
+      }
+    ]
+  },
+  {
+    "text": "I need a cab from the station to the airport day after tomorrow",
+    "spans": [
+      {
+        "start": 18,
+        "end": 29,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 33,
+        "end": 44,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 45,
+        "end": 63,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "تاكسي إلى المطار الخميس في 8h",
+    "spans": [
+      {
+        "start": 10,
+        "end": 16,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 17,
+        "end": 23,
+        "label": "DATE"
+      },
+      {
+        "start": 27,
+        "end": 29,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "خذني إلى نابل السبت في الليل",
+    "spans": [
+      {
+        "start": 9,
+        "end": 13,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 14,
+        "end": 19,
+        "label": "DATE"
+      },
+      {
+        "start": 23,
+        "end": 28,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "taxi men dar lel bizerte ghodwa",
+    "spans": [
+      {
+        "start": 9,
+        "end": 12,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 17,
+        "end": 24,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "taxi de mon hôtel vers djerba samedi a 14h30",
+    "spans": [
+      {
+        "start": 8,
+        "end": 17,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 30,
+        "end": 36,
+        "label": "DATE"
+      },
+      {
+        "start": 39,
+        "end": 44,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "I need a taxi to monastir saturday",
+    "spans": [
+      {
+        "start": 17,
+        "end": 25,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 26,
+        "end": 34,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "je dois arriver a sfax samedi a matin",
+    "spans": [
+      {
+        "start": 18,
+        "end": 22,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "label": "DATE"
+      },
+      {
+        "start": 32,
+        "end": 37,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "taxi depuis mon bureau jusqu a hammamet mercredi",
+    "spans": [
+      {
+        "start": 12,
+        "end": 22,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 31,
+        "end": 39,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 40,
+        "end": 48,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "I need a ride from office to djerba tomorrow at 15h",
+    "spans": [
+      {
+        "start": 19,
+        "end": 25,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 29,
+        "end": 35,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 36,
+        "end": 44,
+        "label": "DATE"
+      },
+      {
+        "start": 48,
+        "end": 51,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "khodni lel nabeul tawwa 14h",
+    "spans": [
+      {
+        "start": 11,
+        "end": 17,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 18,
+        "end": 23,
+        "label": "DATE"
+      },
+      {
+        "start": 24,
+        "end": 27,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "خذني إلى صفاقس اليوم في صباحا",
+    "spans": [
+      {
+        "start": 9,
+        "end": 14,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 15,
+        "end": 20,
+        "label": "DATE"
+      },
+      {
+        "start": 24,
+        "end": 29,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "أريد تاكسي إلى سوسة الأحد",
+    "spans": [
+      {
+        "start": 15,
+        "end": 19,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 20,
+        "end": 25,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "أريد تاكسي إلى محطة القطار اليوم",
+    "spans": [
+      {
+        "start": 15,
+        "end": 26,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 27,
+        "end": 32,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "aller a la gare samedi",
+    "spans": [
+      {
+        "start": 8,
+        "end": 15,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 16,
+        "end": 22,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "nemchi matar min beit ba3d ghodwa",
+    "spans": [
+      {
+        "start": 7,
+        "end": 12,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 17,
+        "end": 21,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 22,
+        "end": 33,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "je pars de la marsa vers djerba mardi a nuit",
+    "spans": [
+      {
+        "start": 11,
+        "end": 19,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 32,
+        "end": 37,
+        "label": "DATE"
+      },
+      {
+        "start": 40,
+        "end": 44,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "خذني إلى محطة القطار اليوم في 20h",
+    "spans": [
+      {
+        "start": 9,
+        "end": 20,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 21,
+        "end": 26,
+        "label": "DATE"
+      },
+      {
+        "start": 30,
+        "end": 33,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "nemchi monastir min marsa el-ahad",
+    "spans": [
+      {
+        "start": 7,
+        "end": 15,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 20,
+        "end": 25,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 26,
+        "end": 33,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "wein taxi lel monastir el-jemaa 18h",
+    "spans": [
+      {
+        "start": 14,
+        "end": 22,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 23,
+        "end": 31,
+        "label": "DATE"
+      },
+      {
+        "start": 32,
+        "end": 35,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "wein taxi lel hammamet ba3d ghodwa 14h",
+    "spans": [
+      {
+        "start": 14,
+        "end": 22,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 23,
+        "end": 34,
+        "label": "DATE"
+      },
+      {
+        "start": 35,
+        "end": 38,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "خذني إلى حمام الأنف الاثنين في صباحا",
+    "spans": [
+      {
+        "start": 9,
+        "end": 19,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 20,
+        "end": 27,
+        "label": "DATE"
+      },
+      {
+        "start": 31,
+        "end": 36,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "I need a ride from la marsa to sousse sunday at afternoon",
+    "spans": [
+      {
+        "start": 19,
+        "end": 27,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 31,
+        "end": 37,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 38,
+        "end": 44,
+        "label": "DATE"
+      },
+      {
+        "start": 48,
+        "end": 57,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "please take me to the station this sunday at 13h",
+    "spans": [
+      {
+        "start": 18,
+        "end": 29,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 35,
+        "end": 41,
+        "label": "DATE"
+      },
+      {
+        "start": 45,
+        "end": 48,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "reserver un taxi mercredi après-midi pour sousse",
+    "spans": [
+      {
+        "start": 17,
+        "end": 25,
+        "label": "DATE"
+      },
+      {
+        "start": 26,
+        "end": 36,
+        "label": "TIME"
+      },
+      {
+        "start": 42,
+        "end": 48,
+        "label": "DESTINATION"
+      }
+    ]
+  },
+  {
+    "text": "taxi depuis mon hôtel jusqu a sousse aujourd'hui",
+    "spans": [
+      {
+        "start": 12,
+        "end": 21,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 30,
+        "end": 36,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 37,
+        "end": 48,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "taxi depuis mon domicile jusqu a la gare samedi",
+    "spans": [
+      {
+        "start": 12,
+        "end": 24,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 33,
+        "end": 40,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 41,
+        "end": 47,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "أريد تاكسي إلى جربة السبت",
+    "spans": [
+      {
+        "start": 15,
+        "end": 19,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 20,
+        "end": 25,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "خذني إلى المطار الثلاثاء في 14h",
+    "spans": [
+      {
+        "start": 9,
+        "end": 15,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 16,
+        "end": 24,
+        "label": "DATE"
+      },
+      {
+        "start": 28,
+        "end": 31,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "أريد تاكسي إلى محطة القطار اليوم",
+    "spans": [
+      {
+        "start": 15,
+        "end": 26,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 27,
+        "end": 32,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "تاكسي إلى بنزرت السبت في الصباح",
+    "spans": [
+      {
+        "start": 10,
+        "end": 15,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 16,
+        "end": 21,
+        "label": "DATE"
+      },
+      {
+        "start": 25,
+        "end": 31,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "nemchi gare min marsa el-arba3",
+    "spans": [
+      {
+        "start": 7,
+        "end": 11,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 16,
+        "end": 21,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 22,
+        "end": 30,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "nemchi nabeul el-arba3 fel sbeh",
+    "spans": [
+      {
+        "start": 7,
+        "end": 13,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 14,
+        "end": 22,
+        "label": "DATE"
+      },
+      {
+        "start": 27,
+        "end": 31,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "taxi de mon domicile a djerba samedi",
+    "spans": [
+      {
+        "start": 8,
+        "end": 20,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 23,
+        "end": 29,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 30,
+        "end": 36,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "emmene moi a kairouan dimanche a 16h",
+    "spans": [
+      {
+        "start": 13,
+        "end": 21,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 22,
+        "end": 30,
+        "label": "DATE"
+      },
+      {
+        "start": 33,
+        "end": 36,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "أريد تاكسي إلى جربة الخميس",
+    "spans": [
+      {
+        "start": 15,
+        "end": 19,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 20,
+        "end": 26,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "خذني إلى بنزرت غدا في الظهر",
+    "spans": [
+      {
+        "start": 9,
+        "end": 14,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 15,
+        "end": 18,
+        "label": "DATE"
+      },
+      {
+        "start": 22,
+        "end": 27,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "drop me at nabeul from la marsa sunday",
+    "spans": [
+      {
+        "start": 11,
+        "end": 17,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 23,
+        "end": 31,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 32,
+        "end": 38,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "احتاج تاكسي من المنزل إلى جربة غدا",
+    "spans": [
+      {
+        "start": 15,
+        "end": 21,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 26,
+        "end": 30,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 31,
+        "end": 34,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "take me from the hotel to sousse tonight",
+    "spans": [
+      {
+        "start": 13,
+        "end": 22,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 26,
+        "end": 32,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 33,
+        "end": 40,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "nemchi matar tawwa fel 9h",
+    "spans": [
+      {
+        "start": 7,
+        "end": 12,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 13,
+        "end": 18,
+        "label": "DATE"
+      },
+      {
+        "start": 23,
+        "end": 25,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "nemchi bizerte min hotel el-arba3",
+    "spans": [
+      {
+        "start": 7,
+        "end": 14,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 19,
+        "end": 24,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 25,
+        "end": 33,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "تاكسي إلى جربة اليوم في الليل",
+    "spans": [
+      {
+        "start": 10,
+        "end": 14,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 15,
+        "end": 20,
+        "label": "DATE"
+      },
+      {
+        "start": 24,
+        "end": 29,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "get me a taxi to sfax saturday at 14h",
+    "spans": [
+      {
+        "start": 17,
+        "end": 21,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 22,
+        "end": 30,
+        "label": "DATE"
+      },
+      {
+        "start": 34,
+        "end": 37,
+        "label": "TIME"
+      }
+    ]
+  },
+  {
+    "text": "أريد تاكسي إلى حمام الأنف الاثنين",
+    "spans": [
+      {
+        "start": 15,
+        "end": 25,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 26,
+        "end": 33,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "taxi depuis mon domicile jusqu a hammamet mercredi",
+    "spans": [
+      {
+        "start": 12,
+        "end": 24,
+        "label": "DEPARTURE"
+      },
+      {
+        "start": 33,
+        "end": 41,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 42,
+        "end": 50,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "أريد تاكسي إلى المنستير غدا",
+    "spans": [
+      {
+        "start": 15,
+        "end": 23,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 24,
+        "end": 27,
+        "label": "DATE"
+      }
+    ]
+  },
+  {
+    "text": "أريد تاكسي إلى صفاقس الأربعاء",
+    "spans": [
+      {
+        "start": 15,
+        "end": 20,
+        "label": "DESTINATION"
+      },
+      {
+        "start": 21,
+        "end": 29,
+        "label": "DATE"
+      }
+    ]
+  }
+]
