@@ -1,29 +1,3 @@
-# fastapi
-# uvicorn[standard]
-# python-multipart
-# faster-whisper
-# flask 
-# numpy 
-# scipy 
-# scikit-learn
-# faster_whisper
-# pyttsx3
-# transformers
-# spacy
-# uvicorn
-# datasets
-# seqeval
-# flask_cors
-# spacy-transformers
-# torch
-# torchaudio
-# torchvision
-# pydantic
-# pytest
-# pytest-cov
-# pytest-asyncio
-# pytest-mock
-# spacy-alignments
 fastapi
 uvicorn[standard]
 python-multipart
@@ -33,7 +7,6 @@ scipy
 scikit-learn
 transformers
 spacy
-spacy-transformers
 torch
 torchaudio
 torchvision
