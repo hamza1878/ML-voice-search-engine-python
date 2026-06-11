@@ -1,5 +1,5 @@
 """
-MOVIROO — backend/main.py  (v7.0 — fix merge + missing_fields)
+MOVIROO — backend/main.py  (v8.0 — lazy model loading for Render free tier)
 """
 
 import os
@@ -26,7 +26,7 @@ from config.strict_normalization import strict_postprocess, strip_fillers
 logging.basicConfig(level=logging.INFO, format="%(asctime)s [%(levelname)s] %(message)s")
 logger = logging.getLogger(__name__)
 
-app = FastAPI(title="MOVIROO API", version="7.0.0")
+app = FastAPI(title="MOVIROO API", version="8.0.0")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
@@ -35,16 +35,39 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# ── Modèles (chargés une seule fois) ─────────────────────────
-WHISPER_MODEL_SIZE = os.getenv("WHISPER_MODEL", "tiny")  # tiny, base, small, medium, large
-whisper_model = WhisperModel(WHISPER_MODEL_SIZE, device="cpu", compute_type="int8")
-logger.info("Whisper ✓  (model=%s)", WHISPER_MODEL_SIZE)
+# ── Modèles lazy (chargés au premier appel, pas au démarrage) ─
+WHISPER_MODEL_SIZE = os.getenv("WHISPER_MODEL", "tiny")
+_whisper_model = None
+_nlp           = None
+_pipe          = None
 
-_nlp  = _load_spacy()
-logger.info("spaCy ✓")
 
-_pipe = _load_bert()
-logger.info("BERT ✓")
+def get_whisper() -> WhisperModel:
+    global _whisper_model
+    if _whisper_model is None:
+        logger.info("Loading Whisper model=%s ...", WHISPER_MODEL_SIZE)
+        _whisper_model = WhisperModel(WHISPER_MODEL_SIZE, device="cpu", compute_type="int8")
+        logger.info("Whisper ✓  (model=%s)", WHISPER_MODEL_SIZE)
+    return _whisper_model
+
+
+def get_nlp():
+    global _nlp
+    if _nlp is None:
+        logger.info("Loading spaCy ...")
+        _nlp = _load_spacy()
+        logger.info("spaCy ✓")
+    return _nlp
+
+
+def get_pipe():
+    global _pipe
+    if _pipe is None:
+        logger.info("Loading BERT ...")
+        _pipe = _load_bert()
+        logger.info("BERT ✓")
+    return _pipe
+
 
 ALLOWED_EXTENSIONS = {".wav", ".mp3", ".m4a", ".ogg", ".webm", ".flac", ".mp4"}
 
@@ -92,10 +115,7 @@ CONFIRMATIONS = {
 }
 
 DEFAULT_DEPARTURE = "current_location"
-
-# ── Champs OBLIGATOIRES pour la confirmation ──────────────────
-# departure est OPTIONNEL : s'il manque on met current_location
-REQUIRED_FIELDS = ["destination", "date", "time"]
+REQUIRED_FIELDS   = ["destination", "date", "time"]
 
 
 # ─────────────────────────────────────────────────────────────
@@ -122,21 +142,13 @@ def detect_intent(text: str, lang: str) -> str:
 
 def extract_entities(text: str) -> dict:
     """NER hybride + strict normalization."""
-    # hybrid_predict already calls strict_postprocess internally,
-    # so we must NOT call it again (it would re-normalize "current_location"
-    # through strict_normalize_location which rejects it as a location name).
-    result = hybrid_predict(text, nlp=_nlp, pipe=_pipe)
-    # departure absent → current_location par défaut
+    result = hybrid_predict(text, nlp=get_nlp(), pipe=get_pipe())
     if not result.get("departure"):
         result["departure"] = DEFAULT_DEPARTURE
     return result
 
 
 def compute_missing(entities: dict) -> list[str]:
-    """
-    FIX v7 : departure n'est JAMAIS dans missing_fields.
-    On ne demande que destination, date, time.
-    """
     return [f for f in REQUIRED_FIELDS if not entities.get(f)]
 
 
@@ -174,10 +186,6 @@ def build_next_question(missing: list, lang: str) -> Optional[dict]:
 
 
 def clean_time(raw: str | None) -> str | None:
-    """
-    FIX v7 : nettoie '8h.' → '08:00', '8 PM' → '20:00', '8 AM' → '08:00'.
-    """
-    import re
     if not raw:
         return None
     text = raw.strip().rstrip(".,!?؟ ")
@@ -205,12 +213,9 @@ def clean_time(raw: str | None) -> str | None:
     if m:
         return f"{int(m.group(1)):02d}:{m.group(2)}"
 
-    # Bare number (1-24) → treat as hour ONLY if not part of a date pattern
-    # Skip numbers followed by month names (e.g., "15 juin")
+    # Bare number → hour seulement si pas une date
     m = re.search(r"\b(\d{1,2})\b", text)
     if m:
-        num = m.group(0)
-        # Check if this number is part of a date expression (e.g., "15 juin", "1er juillet")
         date_month_check = re.search(
             r"\b\d{1,2}(?:\s*er)?\s+(?:"
             + "janvier|février|fevrier|mars|avril|mai|juin|juillet|août|aout|"
@@ -226,24 +231,19 @@ def clean_time(raw: str | None) -> str | None:
             if 0 <= h <= 24:
                 return f"{h:02d}:00"
 
-    # Sémantique (FR + EN + AR + TN)
     _SEMANTIC_TIME = {
-        # EN
         "morning": "08:00", "noon": "12:00", "afternoon": "14:00",
         "evening": "19:00", "night": "22:00", "midnight": "00:00",
-        # FR
         "matin": "08:00", "midi": "12:00", "après-midi": "14:00",
         "apres-midi": "14:00", "apres midi": "14:00",
         "soir": "19:00", "soirée": "19:00", "soiree": "19:00",
         "nuit": "22:00", "minuit": "00:00",
-        # AR
         "صباح": "08:00", "صباحا": "08:00", "ظهر": "12:00",
         "مساء": "19:00", "ليل": "22:00", "منتصف الليل": "00:00",
-        # TN
         "sba7": "08:00", "dhor": "12:00", "3chiya": "19:00",
         "lil": "22:00", "nos ellil": "00:00",
     }
-    return _SEMANTIC_TIME.get(text.lower(), text)   # fallback : renvoie le texte brut plutôt que None
+    return _SEMANTIC_TIME.get(text.lower(), text)
 
 
 async def _transcribe_file(
@@ -260,12 +260,11 @@ async def _transcribe_file(
     if len(audio_bytes) > 100 * 1024 * 1024:
         raise HTTPException(413, "Fichier trop grand (max 100 MB)")
 
-    # Normalize hint to 2-letter code Whisper expects
     whisper_lang = None
     if language_hint:
         code = language_hint[:2].lower()
         if code == "tn":
-            whisper_lang = "ar"       # Tunisian → Arabic for Whisper
+            whisper_lang = "ar"
         elif code in {"fr", "en", "ar"}:
             whisper_lang = code
 
@@ -275,7 +274,7 @@ async def _transcribe_file(
             tmp.write(audio_bytes)
             tmp_path = tmp.name
 
-        segments, info = whisper_model.transcribe(
+        segments, info = get_whisper().transcribe(
             tmp_path,
             language=whisper_lang,
             task="transcribe",
@@ -317,9 +316,9 @@ async def transcribe(file: UploadFile = File(...)):
         if intent == "search":
             response["search_query"] = raw_text.strip()
         else:
-            entities          = extract_entities(raw_text)
-            entities["time"]  = clean_time(entities.get("time"))   # FIX: normalise time
-            missing           = compute_missing(entities)
+            entities         = extract_entities(raw_text)
+            entities["time"] = clean_time(entities.get("time"))
+            missing          = compute_missing(entities)
 
             response.update({
                 "destination":    entities.get("destination"),
@@ -342,7 +341,7 @@ async def transcribe(file: UploadFile = File(...)):
 
 
 # ─────────────────────────────────────────────────────────────
-# POST /answer  — FIX v7 : fusion correcte contexte + nouvelle valeur
+# POST /answer
 # ─────────────────────────────────────────────────────────────
 @app.post("/answer")
 async def answer_missing_field(
@@ -360,35 +359,24 @@ async def answer_missing_field(
 
         lang = language[:2].lower() if language else detected_lang
 
-        # NER sur la réponse
         new_entities = extract_entities(raw_text)
+        new_value    = new_entities.get(field) or raw_text.strip()
 
-        # Valeur extraite pour le champ attendu
-        # Priorité : NER du nouveau texte → texte brut en fallback
-        new_value = new_entities.get(field) or raw_text.strip()
-
-        # For time field: try clean_time on raw text as extra fallback
         if field == "time" and not new_entities.get("time"):
             cleaned_time = clean_time(raw_text.strip())
             if cleaned_time and re.search(r"\d", cleaned_time or ""):
                 new_value = cleaned_time
 
-        # For date field: try natural language parsing directly (e.g., "15 juin")
         if field == "date" and not new_entities.get("date"):
             from config.strict_normalization import strict_normalize_date
             parsed_date = strict_normalize_date(raw_text.strip())
             if parsed_date:
                 new_value = parsed_date
 
-        # FIX v7 : MERGE correct
-        # Règle : nouvelle valeur du champ répond > contexte existant
-        #         pour tous les AUTRES champs : contexte existant > nouvelle extraction
-        # FIX v8 : If departure is just the default "current_location", prefer
-        #          newly extracted departure so "Tunis vers Hammamet" works.
         ctx_departure = departure
         if ctx_departure == DEFAULT_DEPARTURE and new_entities.get("departure") \
                 and new_entities["departure"] != DEFAULT_DEPARTURE:
-            ctx_departure = None  # let new extraction take over
+            ctx_departure = None
 
         merged = {
             "destination": destination or new_entities.get("destination"),
@@ -396,18 +384,14 @@ async def answer_missing_field(
             "date":        date        or new_entities.get("date"),
             "time":        time        or new_entities.get("time"),
         }
-        # Le champ qui vient d'être répondu : valeur fraîche obligatoire
         merged[field] = new_value
 
-        # Strict normalization on merged values
-        merged = strict_postprocess(merged, raw_text)
-        # FIX: clean_time on the final time value (handles "8h." → "08:00")
+        merged        = strict_postprocess(merged, raw_text)
         merged["time"] = clean_time(merged.get("time"))
         if not merged.get("departure"):
             merged["departure"] = DEFAULT_DEPARTURE
 
         missing = compute_missing(merged)
-
         logger.info("Merged: %s | missing: %s", merged, missing)
 
         return JSONResponse(content={
@@ -431,7 +415,7 @@ async def answer_missing_field(
 
 
 # ─────────────────────────────────────────────────────────────
-# POST /dialog  — debug texte direct
+# POST /dialog
 # ─────────────────────────────────────────────────────────────
 class DialogPayload(BaseModel):
     text:     str
