@@ -36,7 +36,7 @@ app.add_middleware(
 )
 
 # ── Modèles (chargés une seule fois) ─────────────────────────
-WHISPER_MODEL_SIZE = os.getenv("WHISPER_MODEL", "small")
+WHISPER_MODEL_SIZE = os.getenv("WHISPER_MODEL", "tiny")  # tiny, base, small, medium, large
 whisper_model = WhisperModel(WHISPER_MODEL_SIZE, device="cpu", compute_type="int8")
 logger.info("Whisper ✓  (model=%s)", WHISPER_MODEL_SIZE)
 
